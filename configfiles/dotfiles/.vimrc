@@ -3,13 +3,13 @@ Plug 'mileszs/ack.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'lervag/vimtex'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'itchyny/lightline.vim'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
 " Sets how many lines of history VIM has to remember
 set history=500
 
@@ -36,6 +36,7 @@ set so=7
 
 " Turn on the Wild menu
 set wildmenu
+set wildmode=longest,list,full
 
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
@@ -91,13 +92,14 @@ syntax enable
 
 set background=light
 
-try
-    colorscheme PaperColor
-catch
-endtry
+"try
+"    colorscheme PaperColor
+"    hi Normal ctermbg=NONE
+"catch
+"endtry
 
 " turn on line numbers
-set number
+set number relativenumber
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
@@ -145,6 +147,9 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Splits open at the bottom and right
+set splitbelow splitright
+
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
 map <space> /
 map <C-@> ?
