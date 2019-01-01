@@ -24,6 +24,9 @@ set autoread
 " like <leader>w saves the current file
 let mapleader = ","
 
+" Disable auto comment for all files
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
