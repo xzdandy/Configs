@@ -4,6 +4,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
+Plug 'mbbill/undotree'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -388,3 +389,7 @@ let g:vimtex_view_method = "zathura"
 let g:lightline = { 'colorscheme': 'PaperColor' }
 set noshowmode
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => undotree
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>u :UndotreeToggle<cr>

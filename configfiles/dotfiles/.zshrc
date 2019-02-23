@@ -1,5 +1,8 @@
 source $HOME/.bashrc 
 
+# Bash auto complete
+autoload -U +X bashcompinit && bashcompinit
+
 # Use pure prompt
 autoload -U promptinit; promptinit
 prompt pure
@@ -40,6 +43,8 @@ zstyle ':completion:*' menu select
 
 # Fish-like suggestion
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+source '/home/xzdandy/Tools/azure-cli/az.completion'
 
 # zsh highlight
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
