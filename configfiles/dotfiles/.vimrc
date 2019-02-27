@@ -5,6 +5,7 @@ Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
 Plug 'mbbill/undotree'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -114,10 +115,20 @@ set ffs=unix,dos,mac
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Turn backup off, since most stuff is in SVN, git et.c anyway...
-set nobackup
-set nowb
-set noswapfile
+" Instead of turning of the backup and swap file, we put them into
+" one directories
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Turn persistent undo on 
+"    means that you can undo even when you close a buffer/VIM
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+try
+    set undodir=~/.vim/undodir//
+    set undofile
+catch
+endtry
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -209,7 +220,6 @@ endif
 " Pressing ,ss will toggle and untoggle spell checking
 map <leader>ss :setlocal spell!<cr>
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -257,16 +267,6 @@ endfunction
 if exists('$TMUX') 
     set term=screen-256color 
 endif
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Turn persistent undo on 
-"    means that you can undo even when you close a buffer/VIM
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-try
-    set undodir=~/.vim/undodir
-    set undofile
-catch
-endtry
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Command mode related
@@ -393,3 +393,9 @@ set noshowmode
 " => undotree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <leader>u :UndotreeToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => rust
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType rust nnoremap <leader>mr :w<cr>:make run<cr>
+let g:rustfmt_autosave = 1
