@@ -1,0 +1,60 @@
+# Base16 Atelier Forest Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:f22c40
+ec swi rgb:f22c40
+
+ec b0x00 rgb:a8a19f
+ec b0x7f rgb:9c9491
+ec b0xff rgb:9c9491
+ec btext rgb:407ee7
+ec other rgb:68615e
+
+ec push rgb:6666ea
+ec pop rgb:6666ea
+
+ec bin rgb:407ee7
+ec math rgb:407ee7
+ec mov rgb:407ee7
+ec call rgb:c38418
+ec cjmp rgb:3d97b8
+ec jmp rgb:3d97b8
+ec cmp rgb:407ee7
+ec ret rgb:407ee7
+ec nop rgb:a8a19f
+
+ec reg rgb:f22c40
+ec creg rgb:df5320
+
+ec num rgb:df5320
+ec fline rgb:c38418
+ec fname rgb:c38418
+ec flow rgb:766e6b
+ec flow2 rgb:766e6b
+ec label rgb:7b9726
+ec offset rgb:6666ea
+ec trap rgb:7b9726
+ec flag rgb:6666ea
+ec args rgb:7b9726
+ec invalid rgb:f22c40
+ec help rgb:7b9726
+
+ec input rgb:68615e
+ec comment rgb:9c9491
+ec usrcmt rgb:68615e
+
+ec ai.read rgb:df5320
+ec ai.write rgb:c38418
+ec ai.exec rgb:c38418
+ec ai.seq rgb:c38418
+ec ai.ascii rgb:7b9726
+
+ec graph.true rgb:7b9726
+ec graph.trufae rgb:7b9726
+ec graph.false rgb:f22c40
+ec graph.current rgb:68615e
+ec graph.traced rgb:c38418
+ec graph.box rgb:3d97b8
+ec graph.box2 rgb:407ee7
+ec graph.box3 rgb:407ee7
+ec graph.box4 rgb:407ee7

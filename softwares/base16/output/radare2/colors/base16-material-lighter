@@ -1,0 +1,60 @@
+# Base16 Material Lighter
+# Author: Nate Peterson
+
+ec prompt rgb:FF5370
+ec swi rgb:FF5370
+
+ec b0x00 rgb:CCEAE7
+ec b0x7f rgb:CCD7DA
+ec b0xff rgb:CCD7DA
+ec btext rgb:6182B8
+ec other rgb:80CBC4
+
+ec push rgb:7C4DFF
+ec pop rgb:7C4DFF
+
+ec bin rgb:6182B8
+ec math rgb:6182B8
+ec mov rgb:6182B8
+ec call rgb:FFB62C
+ec cjmp rgb:39ADB5
+ec jmp rgb:39ADB5
+ec cmp rgb:6182B8
+ec ret rgb:6182B8
+ec nop rgb:CCEAE7
+
+ec reg rgb:FF5370
+ec creg rgb:F76D47
+
+ec num rgb:F76D47
+ec fline rgb:FFB62C
+ec fname rgb:FFB62C
+ec flow rgb:8796B0
+ec flow2 rgb:8796B0
+ec label rgb:91B859
+ec offset rgb:7C4DFF
+ec trap rgb:91B859
+ec flag rgb:7C4DFF
+ec args rgb:91B859
+ec invalid rgb:FF5370
+ec help rgb:91B859
+
+ec input rgb:80CBC4
+ec comment rgb:CCD7DA
+ec usrcmt rgb:80CBC4
+
+ec ai.read rgb:F76D47
+ec ai.write rgb:FFB62C
+ec ai.exec rgb:FFB62C
+ec ai.seq rgb:FFB62C
+ec ai.ascii rgb:91B859
+
+ec graph.true rgb:91B859
+ec graph.trufae rgb:91B859
+ec graph.false rgb:FF5370
+ec graph.current rgb:80CBC4
+ec graph.traced rgb:FFB62C
+ec graph.box rgb:39ADB5
+ec graph.box2 rgb:6182B8
+ec graph.box3 rgb:6182B8
+ec graph.box4 rgb:6182B8

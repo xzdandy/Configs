@@ -1,0 +1,60 @@
+# Base16 Marrakesh
+# Author: Alexandre Gavioli (http://github.com/Alexx2/)
+
+ec prompt rgb:c35359
+ec swi rgb:c35359
+
+ec b0x00 rgb:5f5b17
+ec b0x7f rgb:6c6823
+ec b0xff rgb:6c6823
+ec btext rgb:477ca1
+ec other rgb:948e48
+
+ec push rgb:8868b3
+ec pop rgb:8868b3
+
+ec bin rgb:477ca1
+ec math rgb:477ca1
+ec mov rgb:477ca1
+ec call rgb:a88339
+ec cjmp rgb:75a738
+ec jmp rgb:75a738
+ec cmp rgb:477ca1
+ec ret rgb:477ca1
+ec nop rgb:5f5b17
+
+ec reg rgb:c35359
+ec creg rgb:b36144
+
+ec num rgb:b36144
+ec fline rgb:a88339
+ec fname rgb:a88339
+ec flow rgb:86813b
+ec flow2 rgb:86813b
+ec label rgb:18974e
+ec offset rgb:8868b3
+ec trap rgb:18974e
+ec flag rgb:8868b3
+ec args rgb:18974e
+ec invalid rgb:c35359
+ec help rgb:18974e
+
+ec input rgb:948e48
+ec comment rgb:6c6823
+ec usrcmt rgb:948e48
+
+ec ai.read rgb:b36144
+ec ai.write rgb:a88339
+ec ai.exec rgb:a88339
+ec ai.seq rgb:a88339
+ec ai.ascii rgb:18974e
+
+ec graph.true rgb:18974e
+ec graph.trufae rgb:18974e
+ec graph.false rgb:c35359
+ec graph.current rgb:948e48
+ec graph.traced rgb:a88339
+ec graph.box rgb:75a738
+ec graph.box2 rgb:477ca1
+ec graph.box3 rgb:477ca1
+ec graph.box4 rgb:477ca1

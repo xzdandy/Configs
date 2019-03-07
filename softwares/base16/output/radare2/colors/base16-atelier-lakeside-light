@@ -1,0 +1,60 @@
+# Base16 Atelier Lakeside Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:d22d72
+ec swi rgb:d22d72
+
+ec b0x00 rgb:7ea2b4
+ec b0x7f rgb:7195a8
+ec b0xff rgb:7195a8
+ec btext rgb:257fad
+ec other rgb:516d7b
+
+ec push rgb:6b6bb8
+ec pop rgb:6b6bb8
+
+ec bin rgb:257fad
+ec math rgb:257fad
+ec mov rgb:257fad
+ec call rgb:8a8a0f
+ec cjmp rgb:2d8f6f
+ec jmp rgb:2d8f6f
+ec cmp rgb:257fad
+ec ret rgb:257fad
+ec nop rgb:7ea2b4
+
+ec reg rgb:d22d72
+ec creg rgb:935c25
+
+ec num rgb:935c25
+ec fline rgb:8a8a0f
+ec fname rgb:8a8a0f
+ec flow rgb:5a7b8c
+ec flow2 rgb:5a7b8c
+ec label rgb:568c3b
+ec offset rgb:6b6bb8
+ec trap rgb:568c3b
+ec flag rgb:6b6bb8
+ec args rgb:568c3b
+ec invalid rgb:d22d72
+ec help rgb:568c3b
+
+ec input rgb:516d7b
+ec comment rgb:7195a8
+ec usrcmt rgb:516d7b
+
+ec ai.read rgb:935c25
+ec ai.write rgb:8a8a0f
+ec ai.exec rgb:8a8a0f
+ec ai.seq rgb:8a8a0f
+ec ai.ascii rgb:568c3b
+
+ec graph.true rgb:568c3b
+ec graph.trufae rgb:568c3b
+ec graph.false rgb:d22d72
+ec graph.current rgb:516d7b
+ec graph.traced rgb:8a8a0f
+ec graph.box rgb:2d8f6f
+ec graph.box2 rgb:257fad
+ec graph.box3 rgb:257fad
+ec graph.box4 rgb:257fad

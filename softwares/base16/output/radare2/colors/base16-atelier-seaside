@@ -1,0 +1,60 @@
+# Base16 Atelier Seaside
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:e6193c
+ec swi rgb:e6193c
+
+ec b0x00 rgb:5e6e5e
+ec b0x7f rgb:687d68
+ec b0xff rgb:687d68
+ec btext rgb:3d62f5
+ec other rgb:8ca68c
+
+ec push rgb:ad2bee
+ec pop rgb:ad2bee
+
+ec bin rgb:3d62f5
+ec math rgb:3d62f5
+ec mov rgb:3d62f5
+ec call rgb:98981b
+ec cjmp rgb:1999b3
+ec jmp rgb:1999b3
+ec cmp rgb:3d62f5
+ec ret rgb:3d62f5
+ec nop rgb:5e6e5e
+
+ec reg rgb:e6193c
+ec creg rgb:87711d
+
+ec num rgb:87711d
+ec fline rgb:98981b
+ec fname rgb:98981b
+ec flow rgb:809980
+ec flow2 rgb:809980
+ec label rgb:29a329
+ec offset rgb:ad2bee
+ec trap rgb:29a329
+ec flag rgb:ad2bee
+ec args rgb:29a329
+ec invalid rgb:e6193c
+ec help rgb:29a329
+
+ec input rgb:8ca68c
+ec comment rgb:687d68
+ec usrcmt rgb:8ca68c
+
+ec ai.read rgb:87711d
+ec ai.write rgb:98981b
+ec ai.exec rgb:98981b
+ec ai.seq rgb:98981b
+ec ai.ascii rgb:29a329
+
+ec graph.true rgb:29a329
+ec graph.trufae rgb:29a329
+ec graph.false rgb:e6193c
+ec graph.current rgb:8ca68c
+ec graph.traced rgb:98981b
+ec graph.box rgb:1999b3
+ec graph.box2 rgb:3d62f5
+ec graph.box3 rgb:3d62f5
+ec graph.box4 rgb:3d62f5

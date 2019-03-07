@@ -1,0 +1,60 @@
+# Base16 Icy Dark
+# Author: icyphox (https://icyphox.ga)
+
+ec prompt rgb:16c1d9
+ec swi rgb:16c1d9
+
+ec b0x00 rgb:041f23
+ec b0x7f rgb:052e34
+ec b0xff rgb:052e34
+ec btext rgb:00bcd4
+ec other rgb:095b67
+
+ec push rgb:00acc1
+ec pop rgb:00acc1
+
+ec bin rgb:00bcd4
+ec math rgb:00bcd4
+ec mov rgb:00bcd4
+ec call rgb:80deea
+ec cjmp rgb:26c6da
+ec jmp rgb:26c6da
+ec cmp rgb:00bcd4
+ec ret rgb:00bcd4
+ec nop rgb:041f23
+
+ec reg rgb:16c1d9
+ec creg rgb:b3ebf2
+
+ec num rgb:b3ebf2
+ec fline rgb:80deea
+ec fname rgb:80deea
+ec flow rgb:064048
+ec flow2 rgb:064048
+ec label rgb:4dd0e1
+ec offset rgb:00acc1
+ec trap rgb:4dd0e1
+ec flag rgb:00acc1
+ec args rgb:4dd0e1
+ec invalid rgb:16c1d9
+ec help rgb:4dd0e1
+
+ec input rgb:095b67
+ec comment rgb:052e34
+ec usrcmt rgb:095b67
+
+ec ai.read rgb:b3ebf2
+ec ai.write rgb:80deea
+ec ai.exec rgb:80deea
+ec ai.seq rgb:80deea
+ec ai.ascii rgb:4dd0e1
+
+ec graph.true rgb:4dd0e1
+ec graph.trufae rgb:4dd0e1
+ec graph.false rgb:16c1d9
+ec graph.current rgb:095b67
+ec graph.traced rgb:80deea
+ec graph.box rgb:26c6da
+ec graph.box2 rgb:00bcd4
+ec graph.box3 rgb:00bcd4
+ec graph.box4 rgb:00bcd4

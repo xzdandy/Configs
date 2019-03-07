@@ -1,0 +1,60 @@
+# Base16 Hopscotch
+# Author: Jan T. Sott
+
+ec prompt rgb:dd464c
+ec swi rgb:dd464c
+
+ec b0x00 rgb:5c545b
+ec b0x7f rgb:797379
+ec b0xff rgb:797379
+ec btext rgb:1290bf
+ec other rgb:b9b5b8
+
+ec push rgb:c85e7c
+ec pop rgb:c85e7c
+
+ec bin rgb:1290bf
+ec math rgb:1290bf
+ec mov rgb:1290bf
+ec call rgb:fdcc59
+ec cjmp rgb:149b93
+ec jmp rgb:149b93
+ec cmp rgb:1290bf
+ec ret rgb:1290bf
+ec nop rgb:5c545b
+
+ec reg rgb:dd464c
+ec creg rgb:fd8b19
+
+ec num rgb:fd8b19
+ec fline rgb:fdcc59
+ec fname rgb:fdcc59
+ec flow rgb:989498
+ec flow2 rgb:989498
+ec label rgb:8fc13e
+ec offset rgb:c85e7c
+ec trap rgb:8fc13e
+ec flag rgb:c85e7c
+ec args rgb:8fc13e
+ec invalid rgb:dd464c
+ec help rgb:8fc13e
+
+ec input rgb:b9b5b8
+ec comment rgb:797379
+ec usrcmt rgb:b9b5b8
+
+ec ai.read rgb:fd8b19
+ec ai.write rgb:fdcc59
+ec ai.exec rgb:fdcc59
+ec ai.seq rgb:fdcc59
+ec ai.ascii rgb:8fc13e
+
+ec graph.true rgb:8fc13e
+ec graph.trufae rgb:8fc13e
+ec graph.false rgb:dd464c
+ec graph.current rgb:b9b5b8
+ec graph.traced rgb:fdcc59
+ec graph.box rgb:149b93
+ec graph.box2 rgb:1290bf
+ec graph.box3 rgb:1290bf
+ec graph.box4 rgb:1290bf

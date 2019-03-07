@@ -1,0 +1,60 @@
+# Base16 Materia
+# Author: Defman21
+
+ec prompt rgb:EC5F67
+ec swi rgb:EC5F67
+
+ec b0x00 rgb:37474F
+ec b0x7f rgb:707880
+ec b0xff rgb:707880
+ec btext rgb:89DDFF
+ec other rgb:CDD3DE
+
+ec push rgb:82AAFF
+ec pop rgb:82AAFF
+
+ec bin rgb:89DDFF
+ec math rgb:89DDFF
+ec mov rgb:89DDFF
+ec call rgb:FFCC00
+ec cjmp rgb:80CBC4
+ec jmp rgb:80CBC4
+ec cmp rgb:89DDFF
+ec ret rgb:89DDFF
+ec nop rgb:37474F
+
+ec reg rgb:EC5F67
+ec creg rgb:EA9560
+
+ec num rgb:EA9560
+ec fline rgb:FFCC00
+ec fname rgb:FFCC00
+ec flow rgb:C9CCD3
+ec flow2 rgb:C9CCD3
+ec label rgb:8BD649
+ec offset rgb:82AAFF
+ec trap rgb:8BD649
+ec flag rgb:82AAFF
+ec args rgb:8BD649
+ec invalid rgb:EC5F67
+ec help rgb:8BD649
+
+ec input rgb:CDD3DE
+ec comment rgb:707880
+ec usrcmt rgb:CDD3DE
+
+ec ai.read rgb:EA9560
+ec ai.write rgb:FFCC00
+ec ai.exec rgb:FFCC00
+ec ai.seq rgb:FFCC00
+ec ai.ascii rgb:8BD649
+
+ec graph.true rgb:8BD649
+ec graph.trufae rgb:8BD649
+ec graph.false rgb:EC5F67
+ec graph.current rgb:CDD3DE
+ec graph.traced rgb:FFCC00
+ec graph.box rgb:80CBC4
+ec graph.box2 rgb:89DDFF
+ec graph.box3 rgb:89DDFF
+ec graph.box4 rgb:89DDFF

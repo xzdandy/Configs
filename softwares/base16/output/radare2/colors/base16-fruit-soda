@@ -1,0 +1,60 @@
+# Base16 Fruit Soda
+# Author: jozip
+
+ec prompt rgb:fe3e31
+ec swi rgb:fe3e31
+
+ec b0x00 rgb:d8d5d5
+ec b0x7f rgb:b5b4b6
+ec b0xff rgb:b5b4b6
+ec btext rgb:2931df
+ec other rgb:515151
+
+ec push rgb:611fce
+ec pop rgb:611fce
+
+ec bin rgb:2931df
+ec math rgb:2931df
+ec mov rgb:2931df
+ec call rgb:f7e203
+ec cjmp rgb:0f9cfd
+ec jmp rgb:0f9cfd
+ec cmp rgb:2931df
+ec ret rgb:2931df
+ec nop rgb:d8d5d5
+
+ec reg rgb:fe3e31
+ec creg rgb:fe6d08
+
+ec num rgb:fe6d08
+ec fline rgb:f7e203
+ec fname rgb:f7e203
+ec flow rgb:979598
+ec flow2 rgb:979598
+ec label rgb:47f74c
+ec offset rgb:611fce
+ec trap rgb:47f74c
+ec flag rgb:611fce
+ec args rgb:47f74c
+ec invalid rgb:fe3e31
+ec help rgb:47f74c
+
+ec input rgb:515151
+ec comment rgb:b5b4b6
+ec usrcmt rgb:515151
+
+ec ai.read rgb:fe6d08
+ec ai.write rgb:f7e203
+ec ai.exec rgb:f7e203
+ec ai.seq rgb:f7e203
+ec ai.ascii rgb:47f74c
+
+ec graph.true rgb:47f74c
+ec graph.trufae rgb:47f74c
+ec graph.false rgb:fe3e31
+ec graph.current rgb:515151
+ec graph.traced rgb:f7e203
+ec graph.box rgb:0f9cfd
+ec graph.box2 rgb:2931df
+ec graph.box3 rgb:2931df
+ec graph.box4 rgb:2931df

@@ -1,0 +1,60 @@
+# Base16 Bespin
+# Author: Jan T. Sott
+
+ec prompt rgb:cf6a4c
+ec swi rgb:cf6a4c
+
+ec b0x00 rgb:5e5d5c
+ec b0x7f rgb:666666
+ec b0xff rgb:666666
+ec btext rgb:5ea6ea
+ec other rgb:8a8986
+
+ec push rgb:9b859d
+ec pop rgb:9b859d
+
+ec bin rgb:5ea6ea
+ec math rgb:5ea6ea
+ec mov rgb:5ea6ea
+ec call rgb:f9ee98
+ec cjmp rgb:afc4db
+ec jmp rgb:afc4db
+ec cmp rgb:5ea6ea
+ec ret rgb:5ea6ea
+ec nop rgb:5e5d5c
+
+ec reg rgb:cf6a4c
+ec creg rgb:cf7d34
+
+ec num rgb:cf7d34
+ec fline rgb:f9ee98
+ec fname rgb:f9ee98
+ec flow rgb:797977
+ec flow2 rgb:797977
+ec label rgb:54be0d
+ec offset rgb:9b859d
+ec trap rgb:54be0d
+ec flag rgb:9b859d
+ec args rgb:54be0d
+ec invalid rgb:cf6a4c
+ec help rgb:54be0d
+
+ec input rgb:8a8986
+ec comment rgb:666666
+ec usrcmt rgb:8a8986
+
+ec ai.read rgb:cf7d34
+ec ai.write rgb:f9ee98
+ec ai.exec rgb:f9ee98
+ec ai.seq rgb:f9ee98
+ec ai.ascii rgb:54be0d
+
+ec graph.true rgb:54be0d
+ec graph.trufae rgb:54be0d
+ec graph.false rgb:cf6a4c
+ec graph.current rgb:8a8986
+ec graph.traced rgb:f9ee98
+ec graph.box rgb:afc4db
+ec graph.box2 rgb:5ea6ea
+ec graph.box3 rgb:5ea6ea
+ec graph.box4 rgb:5ea6ea

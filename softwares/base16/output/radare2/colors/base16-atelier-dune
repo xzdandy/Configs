@@ -1,0 +1,60 @@
+# Base16 Atelier Dune
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:d73737
+ec swi rgb:d73737
+
+ec b0x00 rgb:6e6b5e
+ec b0x7f rgb:7d7a68
+ec b0xff rgb:7d7a68
+ec btext rgb:6684e1
+ec other rgb:a6a28c
+
+ec push rgb:b854d4
+ec pop rgb:b854d4
+
+ec bin rgb:6684e1
+ec math rgb:6684e1
+ec mov rgb:6684e1
+ec call rgb:ae9513
+ec cjmp rgb:1fad83
+ec jmp rgb:1fad83
+ec cmp rgb:6684e1
+ec ret rgb:6684e1
+ec nop rgb:6e6b5e
+
+ec reg rgb:d73737
+ec creg rgb:b65611
+
+ec num rgb:b65611
+ec fline rgb:ae9513
+ec fname rgb:ae9513
+ec flow rgb:999580
+ec flow2 rgb:999580
+ec label rgb:60ac39
+ec offset rgb:b854d4
+ec trap rgb:60ac39
+ec flag rgb:b854d4
+ec args rgb:60ac39
+ec invalid rgb:d73737
+ec help rgb:60ac39
+
+ec input rgb:a6a28c
+ec comment rgb:7d7a68
+ec usrcmt rgb:a6a28c
+
+ec ai.read rgb:b65611
+ec ai.write rgb:ae9513
+ec ai.exec rgb:ae9513
+ec ai.seq rgb:ae9513
+ec ai.ascii rgb:60ac39
+
+ec graph.true rgb:60ac39
+ec graph.trufae rgb:60ac39
+ec graph.false rgb:d73737
+ec graph.current rgb:a6a28c
+ec graph.traced rgb:ae9513
+ec graph.box rgb:1fad83
+ec graph.box2 rgb:6684e1
+ec graph.box3 rgb:6684e1
+ec graph.box4 rgb:6684e1

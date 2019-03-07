@@ -1,0 +1,26 @@
+-- Name: Base16 PaperColor-Light
+-- Author: Nguyen Nguyen (http://github.com/NLKNguyen)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#4d4d4c" }
+Canvas = { Colour="#f3f3f3" }
+Number = { Colour="#d75f00" }
+Escape = { Colour="#262626" , Italic=true}
+String = { Colour="#718c00" }
+BlockComment = { Colour="#949494" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#4d4d4c" }
+LineNum      = { Color="#949494" }
+PreProcessor      = { Colour="#df0000" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#8959a8", Bold=true},
+  { Colour="#4271ae"},
+  { Colour="#005f87"},
+  { Colour="#4271ae"},
+  { Colour="#4271ae" }
+}

@@ -1,0 +1,60 @@
+# Base16 Pico
+# Author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+
+ec prompt rgb:ff004d
+ec swi rgb:ff004d
+
+ec b0x00 rgb:7e2553
+ec b0x7f rgb:008751
+ec b0xff rgb:008751
+ec btext rgb:83769c
+ec other rgb:5f574f
+
+ec push rgb:ff77a8
+ec pop rgb:ff77a8
+
+ec bin rgb:83769c
+ec math rgb:83769c
+ec mov rgb:83769c
+ec call rgb:fff024
+ec cjmp rgb:29adff
+ec jmp rgb:29adff
+ec cmp rgb:83769c
+ec ret rgb:83769c
+ec nop rgb:7e2553
+
+ec reg rgb:ff004d
+ec creg rgb:ffa300
+
+ec num rgb:ffa300
+ec fline rgb:fff024
+ec fname rgb:fff024
+ec flow rgb:ab5236
+ec flow2 rgb:ab5236
+ec label rgb:00e756
+ec offset rgb:ff77a8
+ec trap rgb:00e756
+ec flag rgb:ff77a8
+ec args rgb:00e756
+ec invalid rgb:ff004d
+ec help rgb:00e756
+
+ec input rgb:5f574f
+ec comment rgb:008751
+ec usrcmt rgb:5f574f
+
+ec ai.read rgb:ffa300
+ec ai.write rgb:fff024
+ec ai.exec rgb:fff024
+ec ai.seq rgb:fff024
+ec ai.ascii rgb:00e756
+
+ec graph.true rgb:00e756
+ec graph.trufae rgb:00e756
+ec graph.false rgb:ff004d
+ec graph.current rgb:5f574f
+ec graph.traced rgb:fff024
+ec graph.box rgb:29adff
+ec graph.box2 rgb:83769c
+ec graph.box3 rgb:83769c
+ec graph.box4 rgb:83769c

@@ -1,0 +1,60 @@
+# Base16 Grayscale Light
+# Author: Alexandre Gavioli (https://github.com/Alexx2/)
+
+ec prompt rgb:7c7c7c
+ec swi rgb:7c7c7c
+
+ec b0x00 rgb:b9b9b9
+ec b0x7f rgb:ababab
+ec b0xff rgb:ababab
+ec btext rgb:686868
+ec other rgb:464646
+
+ec push rgb:747474
+ec pop rgb:747474
+
+ec bin rgb:686868
+ec math rgb:686868
+ec mov rgb:686868
+ec call rgb:a0a0a0
+ec cjmp rgb:868686
+ec jmp rgb:868686
+ec cmp rgb:686868
+ec ret rgb:686868
+ec nop rgb:b9b9b9
+
+ec reg rgb:7c7c7c
+ec creg rgb:999999
+
+ec num rgb:999999
+ec fline rgb:a0a0a0
+ec fname rgb:a0a0a0
+ec flow rgb:525252
+ec flow2 rgb:525252
+ec label rgb:8e8e8e
+ec offset rgb:747474
+ec trap rgb:8e8e8e
+ec flag rgb:747474
+ec args rgb:8e8e8e
+ec invalid rgb:7c7c7c
+ec help rgb:8e8e8e
+
+ec input rgb:464646
+ec comment rgb:ababab
+ec usrcmt rgb:464646
+
+ec ai.read rgb:999999
+ec ai.write rgb:a0a0a0
+ec ai.exec rgb:a0a0a0
+ec ai.seq rgb:a0a0a0
+ec ai.ascii rgb:8e8e8e
+
+ec graph.true rgb:8e8e8e
+ec graph.trufae rgb:8e8e8e
+ec graph.false rgb:7c7c7c
+ec graph.current rgb:464646
+ec graph.traced rgb:a0a0a0
+ec graph.box rgb:868686
+ec graph.box2 rgb:686868
+ec graph.box3 rgb:686868
+ec graph.box4 rgb:686868

@@ -1,0 +1,60 @@
+# Base16 Solarized Dark
+# Author: Ethan Schoonover (modified by aramisgithub)
+
+ec prompt rgb:dc322f
+ec swi rgb:dc322f
+
+ec b0x00 rgb:586e75
+ec b0x7f rgb:657b83
+ec b0xff rgb:657b83
+ec btext rgb:268bd2
+ec other rgb:93a1a1
+
+ec push rgb:6c71c4
+ec pop rgb:6c71c4
+
+ec bin rgb:268bd2
+ec math rgb:268bd2
+ec mov rgb:268bd2
+ec call rgb:b58900
+ec cjmp rgb:2aa198
+ec jmp rgb:2aa198
+ec cmp rgb:268bd2
+ec ret rgb:268bd2
+ec nop rgb:586e75
+
+ec reg rgb:dc322f
+ec creg rgb:cb4b16
+
+ec num rgb:cb4b16
+ec fline rgb:b58900
+ec fname rgb:b58900
+ec flow rgb:839496
+ec flow2 rgb:839496
+ec label rgb:859900
+ec offset rgb:6c71c4
+ec trap rgb:859900
+ec flag rgb:6c71c4
+ec args rgb:859900
+ec invalid rgb:dc322f
+ec help rgb:859900
+
+ec input rgb:93a1a1
+ec comment rgb:657b83
+ec usrcmt rgb:93a1a1
+
+ec ai.read rgb:cb4b16
+ec ai.write rgb:b58900
+ec ai.exec rgb:b58900
+ec ai.seq rgb:b58900
+ec ai.ascii rgb:859900
+
+ec graph.true rgb:859900
+ec graph.trufae rgb:859900
+ec graph.false rgb:dc322f
+ec graph.current rgb:93a1a1
+ec graph.traced rgb:b58900
+ec graph.box rgb:2aa198
+ec graph.box2 rgb:268bd2
+ec graph.box3 rgb:268bd2
+ec graph.box4 rgb:268bd2

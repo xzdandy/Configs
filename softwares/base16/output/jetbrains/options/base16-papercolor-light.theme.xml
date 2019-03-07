@@ -1,0 +1,21 @@
+<!--    Base16 PaperColor-Light
+        Author: Nguyen Nguyen (http://github.com/NLKNguyen)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="f3f3f3" />
+    <option name="treeSelectionColor" value="005f87" />
+    <option name="highlightColor" value="d0d0d0" />
+    <option name="secondBorderColor" value="f3f3f3" />
+    <option name="tableSelectedColor" value="005f87" />
+    <option name="contrastColor" value="f3f3f3" />
+    <option name="disabledColor" value="808080" />
+    <option name="secondaryBackgroundColor" value="f3f3f3" />
+    <option name="buttonColor" value="f3f3f3" />
+    <option name="selectionForegroundColor" value="262626" />
+    <option name="selectionBackgroundColor" value="005f87" />
+    <option name="textColor" value="262626" />
+    <option name="foregroundColor" value="4d4d4c" />
+    <option name="backgroundColor" value="f3f3f3" />
+  </component>
+</application> 

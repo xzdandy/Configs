@@ -1,0 +1,60 @@
+# Base16 Snazzy
+# Author: Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+
+ec prompt rgb:ff5c57
+ec swi rgb:ff5c57
+
+ec b0x00 rgb:43454f
+ec b0x7f rgb:78787e
+ec b0xff rgb:78787e
+ec btext rgb:57c7ff
+ec other rgb:e2e4e5
+
+ec push rgb:ff6ac1
+ec pop rgb:ff6ac1
+
+ec bin rgb:57c7ff
+ec math rgb:57c7ff
+ec mov rgb:57c7ff
+ec call rgb:f3f99d
+ec cjmp rgb:9aedfe
+ec jmp rgb:9aedfe
+ec cmp rgb:57c7ff
+ec ret rgb:57c7ff
+ec nop rgb:43454f
+
+ec reg rgb:ff5c57
+ec creg rgb:ff9f43
+
+ec num rgb:ff9f43
+ec fline rgb:f3f99d
+ec fname rgb:f3f99d
+ec flow rgb:a5a5a9
+ec flow2 rgb:a5a5a9
+ec label rgb:5af78e
+ec offset rgb:ff6ac1
+ec trap rgb:5af78e
+ec flag rgb:ff6ac1
+ec args rgb:5af78e
+ec invalid rgb:ff5c57
+ec help rgb:5af78e
+
+ec input rgb:e2e4e5
+ec comment rgb:78787e
+ec usrcmt rgb:e2e4e5
+
+ec ai.read rgb:ff9f43
+ec ai.write rgb:f3f99d
+ec ai.exec rgb:f3f99d
+ec ai.seq rgb:f3f99d
+ec ai.ascii rgb:5af78e
+
+ec graph.true rgb:5af78e
+ec graph.trufae rgb:5af78e
+ec graph.false rgb:ff5c57
+ec graph.current rgb:e2e4e5
+ec graph.traced rgb:f3f99d
+ec graph.box rgb:9aedfe
+ec graph.box2 rgb:57c7ff
+ec graph.box3 rgb:57c7ff
+ec graph.box4 rgb:57c7ff

@@ -1,0 +1,60 @@
+# Base16 Apathy
+# Author: Jannik Siebert (https://github.com/janniks)
+
+ec prompt rgb:3E9688
+ec swi rgb:3E9688
+
+ec b0x00 rgb:184E45
+ec b0x7f rgb:2B685E
+ec b0xff rgb:2B685E
+ec btext rgb:96883E
+ec other rgb:81B5AC
+
+ec push rgb:4C963E
+ec pop rgb:4C963E
+
+ec bin rgb:96883E
+ec math rgb:96883E
+ec mov rgb:96883E
+ec call rgb:3E4C96
+ec cjmp rgb:963E4C
+ec jmp rgb:963E4C
+ec cmp rgb:96883E
+ec ret rgb:96883E
+ec nop rgb:184E45
+
+ec reg rgb:3E9688
+ec creg rgb:3E7996
+
+ec num rgb:3E7996
+ec fline rgb:3E4C96
+ec fname rgb:3E4C96
+ec flow rgb:5F9C92
+ec flow2 rgb:5F9C92
+ec label rgb:883E96
+ec offset rgb:4C963E
+ec trap rgb:883E96
+ec flag rgb:4C963E
+ec args rgb:883E96
+ec invalid rgb:3E9688
+ec help rgb:883E96
+
+ec input rgb:81B5AC
+ec comment rgb:2B685E
+ec usrcmt rgb:81B5AC
+
+ec ai.read rgb:3E7996
+ec ai.write rgb:3E4C96
+ec ai.exec rgb:3E4C96
+ec ai.seq rgb:3E4C96
+ec ai.ascii rgb:883E96
+
+ec graph.true rgb:883E96
+ec graph.trufae rgb:883E96
+ec graph.false rgb:3E9688
+ec graph.current rgb:81B5AC
+ec graph.traced rgb:3E4C96
+ec graph.box rgb:963E4C
+ec graph.box2 rgb:96883E
+ec graph.box3 rgb:96883E
+ec graph.box4 rgb:96883E

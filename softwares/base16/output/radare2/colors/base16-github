@@ -1,0 +1,60 @@
+# Base16 Github
+# Author: Defman21
+
+ec prompt rgb:ed6a43
+ec swi rgb:ed6a43
+
+ec b0x00 rgb:c8c8fa
+ec b0x7f rgb:969896
+ec b0xff rgb:969896
+ec btext rgb:795da3
+ec other rgb:333333
+
+ec push rgb:a71d5d
+ec pop rgb:a71d5d
+
+ec bin rgb:795da3
+ec math rgb:795da3
+ec mov rgb:795da3
+ec call rgb:795da3
+ec cjmp rgb:183691
+ec jmp rgb:183691
+ec cmp rgb:795da3
+ec ret rgb:795da3
+ec nop rgb:c8c8fa
+
+ec reg rgb:ed6a43
+ec creg rgb:0086b3
+
+ec num rgb:0086b3
+ec fline rgb:795da3
+ec fname rgb:795da3
+ec flow rgb:e8e8e8
+ec flow2 rgb:e8e8e8
+ec label rgb:183691
+ec offset rgb:a71d5d
+ec trap rgb:183691
+ec flag rgb:a71d5d
+ec args rgb:183691
+ec invalid rgb:ed6a43
+ec help rgb:183691
+
+ec input rgb:333333
+ec comment rgb:969896
+ec usrcmt rgb:333333
+
+ec ai.read rgb:0086b3
+ec ai.write rgb:795da3
+ec ai.exec rgb:795da3
+ec ai.seq rgb:795da3
+ec ai.ascii rgb:183691
+
+ec graph.true rgb:183691
+ec graph.trufae rgb:183691
+ec graph.false rgb:ed6a43
+ec graph.current rgb:333333
+ec graph.traced rgb:795da3
+ec graph.box rgb:183691
+ec graph.box2 rgb:795da3
+ec graph.box3 rgb:795da3
+ec graph.box4 rgb:795da3

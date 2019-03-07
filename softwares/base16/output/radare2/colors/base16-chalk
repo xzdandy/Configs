@@ -1,0 +1,60 @@
+# Base16 Chalk
+# Author: Chris Kempson (http://chriskempson.com)
+
+ec prompt rgb:fb9fb1
+ec swi rgb:fb9fb1
+
+ec b0x00 rgb:303030
+ec b0x7f rgb:505050
+ec b0xff rgb:505050
+ec btext rgb:6fc2ef
+ec other rgb:d0d0d0
+
+ec push rgb:e1a3ee
+ec pop rgb:e1a3ee
+
+ec bin rgb:6fc2ef
+ec math rgb:6fc2ef
+ec mov rgb:6fc2ef
+ec call rgb:ddb26f
+ec cjmp rgb:12cfc0
+ec jmp rgb:12cfc0
+ec cmp rgb:6fc2ef
+ec ret rgb:6fc2ef
+ec nop rgb:303030
+
+ec reg rgb:fb9fb1
+ec creg rgb:eda987
+
+ec num rgb:eda987
+ec fline rgb:ddb26f
+ec fname rgb:ddb26f
+ec flow rgb:b0b0b0
+ec flow2 rgb:b0b0b0
+ec label rgb:acc267
+ec offset rgb:e1a3ee
+ec trap rgb:acc267
+ec flag rgb:e1a3ee
+ec args rgb:acc267
+ec invalid rgb:fb9fb1
+ec help rgb:acc267
+
+ec input rgb:d0d0d0
+ec comment rgb:505050
+ec usrcmt rgb:d0d0d0
+
+ec ai.read rgb:eda987
+ec ai.write rgb:ddb26f
+ec ai.exec rgb:ddb26f
+ec ai.seq rgb:ddb26f
+ec ai.ascii rgb:acc267
+
+ec graph.true rgb:acc267
+ec graph.trufae rgb:acc267
+ec graph.false rgb:fb9fb1
+ec graph.current rgb:d0d0d0
+ec graph.traced rgb:ddb26f
+ec graph.box rgb:12cfc0
+ec graph.box2 rgb:6fc2ef
+ec graph.box3 rgb:6fc2ef
+ec graph.box4 rgb:6fc2ef

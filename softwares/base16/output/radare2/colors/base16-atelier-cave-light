@@ -1,0 +1,60 @@
+# Base16 Atelier Cave Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:be4678
+ec swi rgb:be4678
+
+ec b0x00 rgb:8b8792
+ec b0x7f rgb:7e7887
+ec b0xff rgb:7e7887
+ec btext rgb:576ddb
+ec other rgb:585260
+
+ec push rgb:955ae7
+ec pop rgb:955ae7
+
+ec bin rgb:576ddb
+ec math rgb:576ddb
+ec mov rgb:576ddb
+ec call rgb:a06e3b
+ec cjmp rgb:398bc6
+ec jmp rgb:398bc6
+ec cmp rgb:576ddb
+ec ret rgb:576ddb
+ec nop rgb:8b8792
+
+ec reg rgb:be4678
+ec creg rgb:aa573c
+
+ec num rgb:aa573c
+ec fline rgb:a06e3b
+ec fname rgb:a06e3b
+ec flow rgb:655f6d
+ec flow2 rgb:655f6d
+ec label rgb:2a9292
+ec offset rgb:955ae7
+ec trap rgb:2a9292
+ec flag rgb:955ae7
+ec args rgb:2a9292
+ec invalid rgb:be4678
+ec help rgb:2a9292
+
+ec input rgb:585260
+ec comment rgb:7e7887
+ec usrcmt rgb:585260
+
+ec ai.read rgb:aa573c
+ec ai.write rgb:a06e3b
+ec ai.exec rgb:a06e3b
+ec ai.seq rgb:a06e3b
+ec ai.ascii rgb:2a9292
+
+ec graph.true rgb:2a9292
+ec graph.trufae rgb:2a9292
+ec graph.false rgb:be4678
+ec graph.current rgb:585260
+ec graph.traced rgb:a06e3b
+ec graph.box rgb:398bc6
+ec graph.box2 rgb:576ddb
+ec graph.box3 rgb:576ddb
+ec graph.box4 rgb:576ddb

@@ -1,0 +1,60 @@
+# Base16 Darktooth
+# Author: Jason Milkins (https://github.com/jasonm23)
+
+ec prompt rgb:FB543F
+ec swi rgb:FB543F
+
+ec b0x00 rgb:504945
+ec b0x7f rgb:665C54
+ec b0xff rgb:665C54
+ec btext rgb:0D6678
+ec other rgb:A89984
+
+ec push rgb:8F4673
+ec pop rgb:8F4673
+
+ec bin rgb:0D6678
+ec math rgb:0D6678
+ec mov rgb:0D6678
+ec call rgb:FAC03B
+ec cjmp rgb:8BA59B
+ec jmp rgb:8BA59B
+ec cmp rgb:0D6678
+ec ret rgb:0D6678
+ec nop rgb:504945
+
+ec reg rgb:FB543F
+ec creg rgb:FE8625
+
+ec num rgb:FE8625
+ec fline rgb:FAC03B
+ec fname rgb:FAC03B
+ec flow rgb:928374
+ec flow2 rgb:928374
+ec label rgb:95C085
+ec offset rgb:8F4673
+ec trap rgb:95C085
+ec flag rgb:8F4673
+ec args rgb:95C085
+ec invalid rgb:FB543F
+ec help rgb:95C085
+
+ec input rgb:A89984
+ec comment rgb:665C54
+ec usrcmt rgb:A89984
+
+ec ai.read rgb:FE8625
+ec ai.write rgb:FAC03B
+ec ai.exec rgb:FAC03B
+ec ai.seq rgb:FAC03B
+ec ai.ascii rgb:95C085
+
+ec graph.true rgb:95C085
+ec graph.trufae rgb:95C085
+ec graph.false rgb:FB543F
+ec graph.current rgb:A89984
+ec graph.traced rgb:FAC03B
+ec graph.box rgb:8BA59B
+ec graph.box2 rgb:0D6678
+ec graph.box3 rgb:0D6678
+ec graph.box4 rgb:0D6678

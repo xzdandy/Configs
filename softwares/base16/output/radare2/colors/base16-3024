@@ -1,0 +1,60 @@
+# Base16 3024
+# Author: Jan T. Sott (http://github.com/idleberg)
+
+ec prompt rgb:db2d20
+ec swi rgb:db2d20
+
+ec b0x00 rgb:4a4543
+ec b0x7f rgb:5c5855
+ec b0xff rgb:5c5855
+ec btext rgb:01a0e4
+ec other rgb:a5a2a2
+
+ec push rgb:a16a94
+ec pop rgb:a16a94
+
+ec bin rgb:01a0e4
+ec math rgb:01a0e4
+ec mov rgb:01a0e4
+ec call rgb:fded02
+ec cjmp rgb:b5e4f4
+ec jmp rgb:b5e4f4
+ec cmp rgb:01a0e4
+ec ret rgb:01a0e4
+ec nop rgb:4a4543
+
+ec reg rgb:db2d20
+ec creg rgb:e8bbd0
+
+ec num rgb:e8bbd0
+ec fline rgb:fded02
+ec fname rgb:fded02
+ec flow rgb:807d7c
+ec flow2 rgb:807d7c
+ec label rgb:01a252
+ec offset rgb:a16a94
+ec trap rgb:01a252
+ec flag rgb:a16a94
+ec args rgb:01a252
+ec invalid rgb:db2d20
+ec help rgb:01a252
+
+ec input rgb:a5a2a2
+ec comment rgb:5c5855
+ec usrcmt rgb:a5a2a2
+
+ec ai.read rgb:e8bbd0
+ec ai.write rgb:fded02
+ec ai.exec rgb:fded02
+ec ai.seq rgb:fded02
+ec ai.ascii rgb:01a252
+
+ec graph.true rgb:01a252
+ec graph.trufae rgb:01a252
+ec graph.false rgb:db2d20
+ec graph.current rgb:a5a2a2
+ec graph.traced rgb:fded02
+ec graph.box rgb:b5e4f4
+ec graph.box2 rgb:01a0e4
+ec graph.box3 rgb:01a0e4
+ec graph.box4 rgb:01a0e4

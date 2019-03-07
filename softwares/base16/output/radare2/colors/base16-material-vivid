@@ -1,0 +1,60 @@
+# Base16 Material Vivid
+# Author: joshyrobot
+
+ec prompt rgb:f44336
+ec swi rgb:f44336
+
+ec b0x00 rgb:323639
+ec b0x7f rgb:44464d
+ec b0xff rgb:44464d
+ec btext rgb:2196f3
+ec other rgb:80868b
+
+ec push rgb:673ab7
+ec pop rgb:673ab7
+
+ec bin rgb:2196f3
+ec math rgb:2196f3
+ec mov rgb:2196f3
+ec call rgb:ffeb3b
+ec cjmp rgb:00bcd4
+ec jmp rgb:00bcd4
+ec cmp rgb:2196f3
+ec ret rgb:2196f3
+ec nop rgb:323639
+
+ec reg rgb:f44336
+ec creg rgb:ff9800
+
+ec num rgb:ff9800
+ec fline rgb:ffeb3b
+ec fname rgb:ffeb3b
+ec flow rgb:676c71
+ec flow2 rgb:676c71
+ec label rgb:00e676
+ec offset rgb:673ab7
+ec trap rgb:00e676
+ec flag rgb:673ab7
+ec args rgb:00e676
+ec invalid rgb:f44336
+ec help rgb:00e676
+
+ec input rgb:80868b
+ec comment rgb:44464d
+ec usrcmt rgb:80868b
+
+ec ai.read rgb:ff9800
+ec ai.write rgb:ffeb3b
+ec ai.exec rgb:ffeb3b
+ec ai.seq rgb:ffeb3b
+ec ai.ascii rgb:00e676
+
+ec graph.true rgb:00e676
+ec graph.trufae rgb:00e676
+ec graph.false rgb:f44336
+ec graph.current rgb:80868b
+ec graph.traced rgb:ffeb3b
+ec graph.box rgb:00bcd4
+ec graph.box2 rgb:2196f3
+ec graph.box3 rgb:2196f3
+ec graph.box4 rgb:2196f3

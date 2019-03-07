@@ -1,0 +1,60 @@
+# Base16 Classic Light
+# Author: Jason Heeris (http://heeris.id.au)
+
+ec prompt rgb:AC4142
+ec swi rgb:AC4142
+
+ec b0x00 rgb:D0D0D0
+ec b0x7f rgb:B0B0B0
+ec b0xff rgb:B0B0B0
+ec btext rgb:6A9FB5
+ec other rgb:303030
+
+ec push rgb:AA759F
+ec pop rgb:AA759F
+
+ec bin rgb:6A9FB5
+ec math rgb:6A9FB5
+ec mov rgb:6A9FB5
+ec call rgb:F4BF75
+ec cjmp rgb:75B5AA
+ec jmp rgb:75B5AA
+ec cmp rgb:6A9FB5
+ec ret rgb:6A9FB5
+ec nop rgb:D0D0D0
+
+ec reg rgb:AC4142
+ec creg rgb:D28445
+
+ec num rgb:D28445
+ec fline rgb:F4BF75
+ec fname rgb:F4BF75
+ec flow rgb:505050
+ec flow2 rgb:505050
+ec label rgb:90A959
+ec offset rgb:AA759F
+ec trap rgb:90A959
+ec flag rgb:AA759F
+ec args rgb:90A959
+ec invalid rgb:AC4142
+ec help rgb:90A959
+
+ec input rgb:303030
+ec comment rgb:B0B0B0
+ec usrcmt rgb:303030
+
+ec ai.read rgb:D28445
+ec ai.write rgb:F4BF75
+ec ai.exec rgb:F4BF75
+ec ai.seq rgb:F4BF75
+ec ai.ascii rgb:90A959
+
+ec graph.true rgb:90A959
+ec graph.trufae rgb:90A959
+ec graph.false rgb:AC4142
+ec graph.current rgb:303030
+ec graph.traced rgb:F4BF75
+ec graph.box rgb:75B5AA
+ec graph.box2 rgb:6A9FB5
+ec graph.box3 rgb:6A9FB5
+ec graph.box4 rgb:6A9FB5

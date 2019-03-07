@@ -1,0 +1,60 @@
+# Base16 PhD
+# Author: Hennig Hasemann (http://leetless.de/vim.html)
+
+ec prompt rgb:d07346
+ec swi rgb:d07346
+
+ec b0x00 rgb:4d5666
+ec b0x7f rgb:717885
+ec b0xff rgb:717885
+ec btext rgb:5299bf
+ec other rgb:b8bbc2
+
+ec push rgb:9989cc
+ec pop rgb:9989cc
+
+ec bin rgb:5299bf
+ec math rgb:5299bf
+ec mov rgb:5299bf
+ec call rgb:fbd461
+ec cjmp rgb:72b9bf
+ec jmp rgb:72b9bf
+ec cmp rgb:5299bf
+ec ret rgb:5299bf
+ec nop rgb:4d5666
+
+ec reg rgb:d07346
+ec creg rgb:f0a000
+
+ec num rgb:f0a000
+ec fline rgb:fbd461
+ec fname rgb:fbd461
+ec flow rgb:9a99a3
+ec flow2 rgb:9a99a3
+ec label rgb:99bf52
+ec offset rgb:9989cc
+ec trap rgb:99bf52
+ec flag rgb:9989cc
+ec args rgb:99bf52
+ec invalid rgb:d07346
+ec help rgb:99bf52
+
+ec input rgb:b8bbc2
+ec comment rgb:717885
+ec usrcmt rgb:b8bbc2
+
+ec ai.read rgb:f0a000
+ec ai.write rgb:fbd461
+ec ai.exec rgb:fbd461
+ec ai.seq rgb:fbd461
+ec ai.ascii rgb:99bf52
+
+ec graph.true rgb:99bf52
+ec graph.trufae rgb:99bf52
+ec graph.false rgb:d07346
+ec graph.current rgb:b8bbc2
+ec graph.traced rgb:fbd461
+ec graph.box rgb:72b9bf
+ec graph.box2 rgb:5299bf
+ec graph.box3 rgb:5299bf
+ec graph.box4 rgb:5299bf

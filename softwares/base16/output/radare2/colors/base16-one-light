@@ -1,0 +1,60 @@
+# Base16 One Light
+# Author: Daniel Pfeifer (http://github.com/purpleKarrot)
+
+ec prompt rgb:ca1243
+ec swi rgb:ca1243
+
+ec b0x00 rgb:e5e5e6
+ec b0x7f rgb:a0a1a7
+ec b0xff rgb:a0a1a7
+ec btext rgb:4078f2
+ec other rgb:383a42
+
+ec push rgb:a626a4
+ec pop rgb:a626a4
+
+ec bin rgb:4078f2
+ec math rgb:4078f2
+ec mov rgb:4078f2
+ec call rgb:c18401
+ec cjmp rgb:0184bc
+ec jmp rgb:0184bc
+ec cmp rgb:4078f2
+ec ret rgb:4078f2
+ec nop rgb:e5e5e6
+
+ec reg rgb:ca1243
+ec creg rgb:d75f00
+
+ec num rgb:d75f00
+ec fline rgb:c18401
+ec fname rgb:c18401
+ec flow rgb:696c77
+ec flow2 rgb:696c77
+ec label rgb:50a14f
+ec offset rgb:a626a4
+ec trap rgb:50a14f
+ec flag rgb:a626a4
+ec args rgb:50a14f
+ec invalid rgb:ca1243
+ec help rgb:50a14f
+
+ec input rgb:383a42
+ec comment rgb:a0a1a7
+ec usrcmt rgb:383a42
+
+ec ai.read rgb:d75f00
+ec ai.write rgb:c18401
+ec ai.exec rgb:c18401
+ec ai.seq rgb:c18401
+ec ai.ascii rgb:50a14f
+
+ec graph.true rgb:50a14f
+ec graph.trufae rgb:50a14f
+ec graph.false rgb:ca1243
+ec graph.current rgb:383a42
+ec graph.traced rgb:c18401
+ec graph.box rgb:0184bc
+ec graph.box2 rgb:4078f2
+ec graph.box3 rgb:4078f2
+ec graph.box4 rgb:4078f2

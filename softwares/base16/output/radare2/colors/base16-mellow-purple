@@ -1,0 +1,60 @@
+# Base16 Mellow Purple
+# Author: gidsi
+
+ec prompt rgb:00d9e9
+ec swi rgb:00d9e9
+
+ec b0x00 rgb:331354
+ec b0x7f rgb:320f55
+ec b0xff rgb:320f55
+ec btext rgb:550068
+ec other rgb:ffeeff
+
+ec push rgb:8991bb
+ec pop rgb:8991bb
+
+ec bin rgb:550068
+ec math rgb:550068
+ec mov rgb:550068
+ec call rgb:955ae7
+ec cjmp rgb:b900b1
+ec jmp rgb:b900b1
+ec cmp rgb:550068
+ec ret rgb:550068
+ec nop rgb:331354
+
+ec reg rgb:00d9e9
+ec creg rgb:aa00a3
+
+ec num rgb:aa00a3
+ec fline rgb:955ae7
+ec fname rgb:955ae7
+ec flow rgb:873582
+ec flow2 rgb:873582
+ec label rgb:05cb0d
+ec offset rgb:8991bb
+ec trap rgb:05cb0d
+ec flag rgb:8991bb
+ec args rgb:05cb0d
+ec invalid rgb:00d9e9
+ec help rgb:05cb0d
+
+ec input rgb:ffeeff
+ec comment rgb:320f55
+ec usrcmt rgb:ffeeff
+
+ec ai.read rgb:aa00a3
+ec ai.write rgb:955ae7
+ec ai.exec rgb:955ae7
+ec ai.seq rgb:955ae7
+ec ai.ascii rgb:05cb0d
+
+ec graph.true rgb:05cb0d
+ec graph.trufae rgb:05cb0d
+ec graph.false rgb:00d9e9
+ec graph.current rgb:ffeeff
+ec graph.traced rgb:955ae7
+ec graph.box rgb:b900b1
+ec graph.box2 rgb:550068
+ec graph.box3 rgb:550068
+ec graph.box4 rgb:550068

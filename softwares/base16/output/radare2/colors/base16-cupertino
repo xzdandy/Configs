@@ -1,0 +1,60 @@
+# Base16 Cupertino
+# Author: Defman21
+
+ec prompt rgb:c41a15
+ec swi rgb:c41a15
+
+ec b0x00 rgb:c0c0c0
+ec b0x7f rgb:808080
+ec b0xff rgb:808080
+ec btext rgb:0000ff
+ec other rgb:404040
+
+ec push rgb:a90d91
+ec pop rgb:a90d91
+
+ec bin rgb:0000ff
+ec math rgb:0000ff
+ec mov rgb:0000ff
+ec call rgb:826b28
+ec cjmp rgb:318495
+ec jmp rgb:318495
+ec cmp rgb:0000ff
+ec ret rgb:0000ff
+ec nop rgb:c0c0c0
+
+ec reg rgb:c41a15
+ec creg rgb:eb8500
+
+ec num rgb:eb8500
+ec fline rgb:826b28
+ec fname rgb:826b28
+ec flow rgb:808080
+ec flow2 rgb:808080
+ec label rgb:007400
+ec offset rgb:a90d91
+ec trap rgb:007400
+ec flag rgb:a90d91
+ec args rgb:007400
+ec invalid rgb:c41a15
+ec help rgb:007400
+
+ec input rgb:404040
+ec comment rgb:808080
+ec usrcmt rgb:404040
+
+ec ai.read rgb:eb8500
+ec ai.write rgb:826b28
+ec ai.exec rgb:826b28
+ec ai.seq rgb:826b28
+ec ai.ascii rgb:007400
+
+ec graph.true rgb:007400
+ec graph.trufae rgb:007400
+ec graph.false rgb:c41a15
+ec graph.current rgb:404040
+ec graph.traced rgb:826b28
+ec graph.box rgb:318495
+ec graph.box2 rgb:0000ff
+ec graph.box3 rgb:0000ff
+ec graph.box4 rgb:0000ff

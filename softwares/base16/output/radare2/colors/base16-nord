@@ -1,0 +1,60 @@
+# Base16 Nord
+# Author: arcticicestudio
+
+ec prompt rgb:88C0D0
+ec swi rgb:88C0D0
+
+ec b0x00 rgb:434C5E
+ec b0x7f rgb:4C566A
+ec b0xff rgb:4C566A
+ec btext rgb:EBCB8B
+ec other rgb:E5E9F0
+
+ec push rgb:A3BE8C
+ec pop rgb:A3BE8C
+
+ec bin rgb:EBCB8B
+ec math rgb:EBCB8B
+ec mov rgb:EBCB8B
+ec call rgb:5E81AC
+ec cjmp rgb:D08770
+ec jmp rgb:D08770
+ec cmp rgb:EBCB8B
+ec ret rgb:EBCB8B
+ec nop rgb:434C5E
+
+ec reg rgb:88C0D0
+ec creg rgb:81A1C1
+
+ec num rgb:81A1C1
+ec fline rgb:5E81AC
+ec fname rgb:5E81AC
+ec flow rgb:D8DEE9
+ec flow2 rgb:D8DEE9
+ec label rgb:BF616A
+ec offset rgb:A3BE8C
+ec trap rgb:BF616A
+ec flag rgb:A3BE8C
+ec args rgb:BF616A
+ec invalid rgb:88C0D0
+ec help rgb:BF616A
+
+ec input rgb:E5E9F0
+ec comment rgb:4C566A
+ec usrcmt rgb:E5E9F0
+
+ec ai.read rgb:81A1C1
+ec ai.write rgb:5E81AC
+ec ai.exec rgb:5E81AC
+ec ai.seq rgb:5E81AC
+ec ai.ascii rgb:BF616A
+
+ec graph.true rgb:BF616A
+ec graph.trufae rgb:BF616A
+ec graph.false rgb:88C0D0
+ec graph.current rgb:E5E9F0
+ec graph.traced rgb:5E81AC
+ec graph.box rgb:D08770
+ec graph.box2 rgb:EBCB8B
+ec graph.box3 rgb:EBCB8B
+ec graph.box4 rgb:EBCB8B

@@ -1,0 +1,60 @@
+# Base16 Twilight
+# Author: David Hart (https://github.com/hartbit)
+
+ec prompt rgb:cf6a4c
+ec swi rgb:cf6a4c
+
+ec b0x00 rgb:464b50
+ec b0x7f rgb:5f5a60
+ec b0xff rgb:5f5a60
+ec btext rgb:7587a6
+ec other rgb:a7a7a7
+
+ec push rgb:9b859d
+ec pop rgb:9b859d
+
+ec bin rgb:7587a6
+ec math rgb:7587a6
+ec mov rgb:7587a6
+ec call rgb:f9ee98
+ec cjmp rgb:afc4db
+ec jmp rgb:afc4db
+ec cmp rgb:7587a6
+ec ret rgb:7587a6
+ec nop rgb:464b50
+
+ec reg rgb:cf6a4c
+ec creg rgb:cda869
+
+ec num rgb:cda869
+ec fline rgb:f9ee98
+ec fname rgb:f9ee98
+ec flow rgb:838184
+ec flow2 rgb:838184
+ec label rgb:8f9d6a
+ec offset rgb:9b859d
+ec trap rgb:8f9d6a
+ec flag rgb:9b859d
+ec args rgb:8f9d6a
+ec invalid rgb:cf6a4c
+ec help rgb:8f9d6a
+
+ec input rgb:a7a7a7
+ec comment rgb:5f5a60
+ec usrcmt rgb:a7a7a7
+
+ec ai.read rgb:cda869
+ec ai.write rgb:f9ee98
+ec ai.exec rgb:f9ee98
+ec ai.seq rgb:f9ee98
+ec ai.ascii rgb:8f9d6a
+
+ec graph.true rgb:8f9d6a
+ec graph.trufae rgb:8f9d6a
+ec graph.false rgb:cf6a4c
+ec graph.current rgb:a7a7a7
+ec graph.traced rgb:f9ee98
+ec graph.box rgb:afc4db
+ec graph.box2 rgb:7587a6
+ec graph.box3 rgb:7587a6
+ec graph.box4 rgb:7587a6

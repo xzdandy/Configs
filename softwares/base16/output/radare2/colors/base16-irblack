@@ -1,0 +1,60 @@
+# Base16 IR Black
+# Author: Timothée Poisot (http://timotheepoisot.fr)
+
+ec prompt rgb:ff6c60
+ec swi rgb:ff6c60
+
+ec b0x00 rgb:484844
+ec b0x7f rgb:6c6c66
+ec b0xff rgb:6c6c66
+ec btext rgb:96cbfe
+ec other rgb:b5b3aa
+
+ec push rgb:ff73fd
+ec pop rgb:ff73fd
+
+ec bin rgb:96cbfe
+ec math rgb:96cbfe
+ec mov rgb:96cbfe
+ec call rgb:ffffb6
+ec cjmp rgb:c6c5fe
+ec jmp rgb:c6c5fe
+ec cmp rgb:96cbfe
+ec ret rgb:96cbfe
+ec nop rgb:484844
+
+ec reg rgb:ff6c60
+ec creg rgb:e9c062
+
+ec num rgb:e9c062
+ec fline rgb:ffffb6
+ec fname rgb:ffffb6
+ec flow rgb:918f88
+ec flow2 rgb:918f88
+ec label rgb:a8ff60
+ec offset rgb:ff73fd
+ec trap rgb:a8ff60
+ec flag rgb:ff73fd
+ec args rgb:a8ff60
+ec invalid rgb:ff6c60
+ec help rgb:a8ff60
+
+ec input rgb:b5b3aa
+ec comment rgb:6c6c66
+ec usrcmt rgb:b5b3aa
+
+ec ai.read rgb:e9c062
+ec ai.write rgb:ffffb6
+ec ai.exec rgb:ffffb6
+ec ai.seq rgb:ffffb6
+ec ai.ascii rgb:a8ff60
+
+ec graph.true rgb:a8ff60
+ec graph.trufae rgb:a8ff60
+ec graph.false rgb:ff6c60
+ec graph.current rgb:b5b3aa
+ec graph.traced rgb:ffffb6
+ec graph.box rgb:c6c5fe
+ec graph.box2 rgb:96cbfe
+ec graph.box3 rgb:96cbfe
+ec graph.box4 rgb:96cbfe

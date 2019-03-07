@@ -1,0 +1,60 @@
+# Base16 Brewer
+# Author: Timothée Poisot (http://github.com/tpoisot)
+
+ec prompt rgb:e31a1c
+ec swi rgb:e31a1c
+
+ec b0x00 rgb:515253
+ec b0x7f rgb:737475
+ec b0xff rgb:737475
+ec btext rgb:3182bd
+ec other rgb:b7b8b9
+
+ec push rgb:756bb1
+ec pop rgb:756bb1
+
+ec bin rgb:3182bd
+ec math rgb:3182bd
+ec mov rgb:3182bd
+ec call rgb:dca060
+ec cjmp rgb:80b1d3
+ec jmp rgb:80b1d3
+ec cmp rgb:3182bd
+ec ret rgb:3182bd
+ec nop rgb:515253
+
+ec reg rgb:e31a1c
+ec creg rgb:e6550d
+
+ec num rgb:e6550d
+ec fline rgb:dca060
+ec fname rgb:dca060
+ec flow rgb:959697
+ec flow2 rgb:959697
+ec label rgb:31a354
+ec offset rgb:756bb1
+ec trap rgb:31a354
+ec flag rgb:756bb1
+ec args rgb:31a354
+ec invalid rgb:e31a1c
+ec help rgb:31a354
+
+ec input rgb:b7b8b9
+ec comment rgb:737475
+ec usrcmt rgb:b7b8b9
+
+ec ai.read rgb:e6550d
+ec ai.write rgb:dca060
+ec ai.exec rgb:dca060
+ec ai.seq rgb:dca060
+ec ai.ascii rgb:31a354
+
+ec graph.true rgb:31a354
+ec graph.trufae rgb:31a354
+ec graph.false rgb:e31a1c
+ec graph.current rgb:b7b8b9
+ec graph.traced rgb:dca060
+ec graph.box rgb:80b1d3
+ec graph.box2 rgb:3182bd
+ec graph.box3 rgb:3182bd
+ec graph.box4 rgb:3182bd

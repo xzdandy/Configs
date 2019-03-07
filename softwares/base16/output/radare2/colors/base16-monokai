@@ -1,0 +1,60 @@
+# Base16 Monokai
+# Author: Wimer Hazenberg (http://www.monokai.nl)
+
+ec prompt rgb:f92672
+ec swi rgb:f92672
+
+ec b0x00 rgb:49483e
+ec b0x7f rgb:75715e
+ec b0xff rgb:75715e
+ec btext rgb:66d9ef
+ec other rgb:f8f8f2
+
+ec push rgb:ae81ff
+ec pop rgb:ae81ff
+
+ec bin rgb:66d9ef
+ec math rgb:66d9ef
+ec mov rgb:66d9ef
+ec call rgb:f4bf75
+ec cjmp rgb:a1efe4
+ec jmp rgb:a1efe4
+ec cmp rgb:66d9ef
+ec ret rgb:66d9ef
+ec nop rgb:49483e
+
+ec reg rgb:f92672
+ec creg rgb:fd971f
+
+ec num rgb:fd971f
+ec fline rgb:f4bf75
+ec fname rgb:f4bf75
+ec flow rgb:a59f85
+ec flow2 rgb:a59f85
+ec label rgb:a6e22e
+ec offset rgb:ae81ff
+ec trap rgb:a6e22e
+ec flag rgb:ae81ff
+ec args rgb:a6e22e
+ec invalid rgb:f92672
+ec help rgb:a6e22e
+
+ec input rgb:f8f8f2
+ec comment rgb:75715e
+ec usrcmt rgb:f8f8f2
+
+ec ai.read rgb:fd971f
+ec ai.write rgb:f4bf75
+ec ai.exec rgb:f4bf75
+ec ai.seq rgb:f4bf75
+ec ai.ascii rgb:a6e22e
+
+ec graph.true rgb:a6e22e
+ec graph.trufae rgb:a6e22e
+ec graph.false rgb:f92672
+ec graph.current rgb:f8f8f2
+ec graph.traced rgb:f4bf75
+ec graph.box rgb:a1efe4
+ec graph.box2 rgb:66d9ef
+ec graph.box3 rgb:66d9ef
+ec graph.box4 rgb:66d9ef

@@ -1,0 +1,60 @@
+# Base16 Woodland
+# Author: Jay Cornwall (https://jcornwall.com)
+
+ec prompt rgb:d35c5c
+ec swi rgb:d35c5c
+
+ec b0x00 rgb:48413a
+ec b0x7f rgb:9d8b70
+ec b0xff rgb:9d8b70
+ec btext rgb:88a4d3
+ec other rgb:cabcb1
+
+ec push rgb:bb90e2
+ec pop rgb:bb90e2
+
+ec bin rgb:88a4d3
+ec math rgb:88a4d3
+ec mov rgb:88a4d3
+ec call rgb:e0ac16
+ec cjmp rgb:6eb958
+ec jmp rgb:6eb958
+ec cmp rgb:88a4d3
+ec ret rgb:88a4d3
+ec nop rgb:48413a
+
+ec reg rgb:d35c5c
+ec creg rgb:ca7f32
+
+ec num rgb:ca7f32
+ec fline rgb:e0ac16
+ec fname rgb:e0ac16
+ec flow rgb:b4a490
+ec flow2 rgb:b4a490
+ec label rgb:b7ba53
+ec offset rgb:bb90e2
+ec trap rgb:b7ba53
+ec flag rgb:bb90e2
+ec args rgb:b7ba53
+ec invalid rgb:d35c5c
+ec help rgb:b7ba53
+
+ec input rgb:cabcb1
+ec comment rgb:9d8b70
+ec usrcmt rgb:cabcb1
+
+ec ai.read rgb:ca7f32
+ec ai.write rgb:e0ac16
+ec ai.exec rgb:e0ac16
+ec ai.seq rgb:e0ac16
+ec ai.ascii rgb:b7ba53
+
+ec graph.true rgb:b7ba53
+ec graph.trufae rgb:b7ba53
+ec graph.false rgb:d35c5c
+ec graph.current rgb:cabcb1
+ec graph.traced rgb:e0ac16
+ec graph.box rgb:6eb958
+ec graph.box2 rgb:88a4d3
+ec graph.box3 rgb:88a4d3
+ec graph.box4 rgb:88a4d3

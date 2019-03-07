@@ -1,0 +1,60 @@
+# Base16 Solar Flare
+# Author: Chuck Harmston (https://chuck.harmston.ch)
+
+ec prompt rgb:EF5253
+ec swi rgb:EF5253
+
+ec b0x00 rgb:586875
+ec b0x7f rgb:667581
+ec b0xff rgb:667581
+ec btext rgb:33B5E1
+ec other rgb:A6AFB8
+
+ec push rgb:A363D5
+ec pop rgb:A363D5
+
+ec bin rgb:33B5E1
+ec math rgb:33B5E1
+ec mov rgb:33B5E1
+ec call rgb:E4B51C
+ec cjmp rgb:52CBB0
+ec jmp rgb:52CBB0
+ec cmp rgb:33B5E1
+ec ret rgb:33B5E1
+ec nop rgb:586875
+
+ec reg rgb:EF5253
+ec creg rgb:E66B2B
+
+ec num rgb:E66B2B
+ec fline rgb:E4B51C
+ec fname rgb:E4B51C
+ec flow rgb:85939E
+ec flow2 rgb:85939E
+ec label rgb:7CC844
+ec offset rgb:A363D5
+ec trap rgb:7CC844
+ec flag rgb:A363D5
+ec args rgb:7CC844
+ec invalid rgb:EF5253
+ec help rgb:7CC844
+
+ec input rgb:A6AFB8
+ec comment rgb:667581
+ec usrcmt rgb:A6AFB8
+
+ec ai.read rgb:E66B2B
+ec ai.write rgb:E4B51C
+ec ai.exec rgb:E4B51C
+ec ai.seq rgb:E4B51C
+ec ai.ascii rgb:7CC844
+
+ec graph.true rgb:7CC844
+ec graph.trufae rgb:7CC844
+ec graph.false rgb:EF5253
+ec graph.current rgb:A6AFB8
+ec graph.traced rgb:E4B51C
+ec graph.box rgb:52CBB0
+ec graph.box2 rgb:33B5E1
+ec graph.box3 rgb:33B5E1
+ec graph.box4 rgb:33B5E1

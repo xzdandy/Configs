@@ -1,0 +1,45 @@
+! Base16 PaperColor-Light
+! Scheme: Nguyen Nguyen (http://github.com/NLKNguyen)
+
+#define base00 #f3f3f3
+#define base01 #f3f3f3
+#define base02 #d0d0d0
+#define base03 #949494
+#define base04 #808080
+#define base05 #4d4d4c
+#define base06 #262626
+#define base07 #262626
+#define base08 #8959a8
+#define base09 #d75f00
+#define base0A #4271ae
+#define base0B #718c00
+#define base0C #3e999f
+#define base0D #005f87
+#define base0E #d7005f
+#define base0F #df0000
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07

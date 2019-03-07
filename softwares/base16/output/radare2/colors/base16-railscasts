@@ -1,0 +1,60 @@
+# Base16 Railscasts
+# Author: Ryan Bates (http://railscasts.com)
+
+ec prompt rgb:da4939
+ec swi rgb:da4939
+
+ec b0x00 rgb:3a4055
+ec b0x7f rgb:5a647e
+ec b0xff rgb:5a647e
+ec btext rgb:6d9cbe
+ec other rgb:e6e1dc
+
+ec push rgb:b6b3eb
+ec pop rgb:b6b3eb
+
+ec bin rgb:6d9cbe
+ec math rgb:6d9cbe
+ec mov rgb:6d9cbe
+ec call rgb:ffc66d
+ec cjmp rgb:519f50
+ec jmp rgb:519f50
+ec cmp rgb:6d9cbe
+ec ret rgb:6d9cbe
+ec nop rgb:3a4055
+
+ec reg rgb:da4939
+ec creg rgb:cc7833
+
+ec num rgb:cc7833
+ec fline rgb:ffc66d
+ec fname rgb:ffc66d
+ec flow rgb:d4cfc9
+ec flow2 rgb:d4cfc9
+ec label rgb:a5c261
+ec offset rgb:b6b3eb
+ec trap rgb:a5c261
+ec flag rgb:b6b3eb
+ec args rgb:a5c261
+ec invalid rgb:da4939
+ec help rgb:a5c261
+
+ec input rgb:e6e1dc
+ec comment rgb:5a647e
+ec usrcmt rgb:e6e1dc
+
+ec ai.read rgb:cc7833
+ec ai.write rgb:ffc66d
+ec ai.exec rgb:ffc66d
+ec ai.seq rgb:ffc66d
+ec ai.ascii rgb:a5c261
+
+ec graph.true rgb:a5c261
+ec graph.trufae rgb:a5c261
+ec graph.false rgb:da4939
+ec graph.current rgb:e6e1dc
+ec graph.traced rgb:ffc66d
+ec graph.box rgb:519f50
+ec graph.box2 rgb:6d9cbe
+ec graph.box3 rgb:6d9cbe
+ec graph.box4 rgb:6d9cbe

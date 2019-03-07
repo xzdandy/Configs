@@ -1,0 +1,60 @@
+# Base16 Atelier Plateau Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:ca4949
+ec swi rgb:ca4949
+
+ec b0x00 rgb:8a8585
+ec b0x7f rgb:7e7777
+ec b0xff rgb:7e7777
+ec btext rgb:7272ca
+ec other rgb:585050
+
+ec push rgb:8464c4
+ec pop rgb:8464c4
+
+ec bin rgb:7272ca
+ec math rgb:7272ca
+ec mov rgb:7272ca
+ec call rgb:a06e3b
+ec cjmp rgb:5485b6
+ec jmp rgb:5485b6
+ec cmp rgb:7272ca
+ec ret rgb:7272ca
+ec nop rgb:8a8585
+
+ec reg rgb:ca4949
+ec creg rgb:b45a3c
+
+ec num rgb:b45a3c
+ec fline rgb:a06e3b
+ec fname rgb:a06e3b
+ec flow rgb:655d5d
+ec flow2 rgb:655d5d
+ec label rgb:4b8b8b
+ec offset rgb:8464c4
+ec trap rgb:4b8b8b
+ec flag rgb:8464c4
+ec args rgb:4b8b8b
+ec invalid rgb:ca4949
+ec help rgb:4b8b8b
+
+ec input rgb:585050
+ec comment rgb:7e7777
+ec usrcmt rgb:585050
+
+ec ai.read rgb:b45a3c
+ec ai.write rgb:a06e3b
+ec ai.exec rgb:a06e3b
+ec ai.seq rgb:a06e3b
+ec ai.ascii rgb:4b8b8b
+
+ec graph.true rgb:4b8b8b
+ec graph.trufae rgb:4b8b8b
+ec graph.false rgb:ca4949
+ec graph.current rgb:585050
+ec graph.traced rgb:a06e3b
+ec graph.box rgb:5485b6
+ec graph.box2 rgb:7272ca
+ec graph.box3 rgb:7272ca
+ec graph.box4 rgb:7272ca

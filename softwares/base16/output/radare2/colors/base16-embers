@@ -1,0 +1,60 @@
+# Base16 Embers
+# Author: Jannik Siebert (https://github.com/janniks)
+
+ec prompt rgb:826D57
+ec swi rgb:826D57
+
+ec b0x00 rgb:433B32
+ec b0x7f rgb:5A5047
+ec b0xff rgb:5A5047
+ec btext rgb:6D5782
+ec other rgb:A39A90
+
+ec push rgb:82576D
+ec pop rgb:82576D
+
+ec bin rgb:6D5782
+ec math rgb:6D5782
+ec mov rgb:6D5782
+ec call rgb:6D8257
+ec cjmp rgb:576D82
+ec jmp rgb:576D82
+ec cmp rgb:6D5782
+ec ret rgb:6D5782
+ec nop rgb:433B32
+
+ec reg rgb:826D57
+ec creg rgb:828257
+
+ec num rgb:828257
+ec fline rgb:6D8257
+ec fname rgb:6D8257
+ec flow rgb:8A8075
+ec flow2 rgb:8A8075
+ec label rgb:57826D
+ec offset rgb:82576D
+ec trap rgb:57826D
+ec flag rgb:82576D
+ec args rgb:57826D
+ec invalid rgb:826D57
+ec help rgb:57826D
+
+ec input rgb:A39A90
+ec comment rgb:5A5047
+ec usrcmt rgb:A39A90
+
+ec ai.read rgb:828257
+ec ai.write rgb:6D8257
+ec ai.exec rgb:6D8257
+ec ai.seq rgb:6D8257
+ec ai.ascii rgb:57826D
+
+ec graph.true rgb:57826D
+ec graph.trufae rgb:57826D
+ec graph.false rgb:826D57
+ec graph.current rgb:A39A90
+ec graph.traced rgb:6D8257
+ec graph.box rgb:576D82
+ec graph.box2 rgb:6D5782
+ec graph.box3 rgb:6D5782
+ec graph.box4 rgb:6D5782

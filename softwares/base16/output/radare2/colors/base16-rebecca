@@ -1,0 +1,60 @@
+# Base16 Rebecca
+# Author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+
+ec prompt rgb:a0a0c5
+ec swi rgb:a0a0c5
+
+ec b0x00 rgb:383a62
+ec b0x7f rgb:666699
+ec b0xff rgb:666699
+ec btext rgb:2de0a7
+ec other rgb:f1eff8
+
+ec push rgb:7aa5ff
+ec pop rgb:7aa5ff
+
+ec bin rgb:2de0a7
+ec math rgb:2de0a7
+ec mov rgb:2de0a7
+ec call rgb:ae81ff
+ec cjmp rgb:8eaee0
+ec jmp rgb:8eaee0
+ec cmp rgb:2de0a7
+ec ret rgb:2de0a7
+ec nop rgb:383a62
+
+ec reg rgb:a0a0c5
+ec creg rgb:efe4a1
+
+ec num rgb:efe4a1
+ec fline rgb:ae81ff
+ec fname rgb:ae81ff
+ec flow rgb:a0a0c5
+ec flow2 rgb:a0a0c5
+ec label rgb:6dfedf
+ec offset rgb:7aa5ff
+ec trap rgb:6dfedf
+ec flag rgb:7aa5ff
+ec args rgb:6dfedf
+ec invalid rgb:a0a0c5
+ec help rgb:6dfedf
+
+ec input rgb:f1eff8
+ec comment rgb:666699
+ec usrcmt rgb:f1eff8
+
+ec ai.read rgb:efe4a1
+ec ai.write rgb:ae81ff
+ec ai.exec rgb:ae81ff
+ec ai.seq rgb:ae81ff
+ec ai.ascii rgb:6dfedf
+
+ec graph.true rgb:6dfedf
+ec graph.trufae rgb:6dfedf
+ec graph.false rgb:a0a0c5
+ec graph.current rgb:f1eff8
+ec graph.traced rgb:ae81ff
+ec graph.box rgb:8eaee0
+ec graph.box2 rgb:2de0a7
+ec graph.box3 rgb:2de0a7
+ec graph.box4 rgb:2de0a7

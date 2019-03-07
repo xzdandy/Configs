@@ -1,0 +1,60 @@
+# Base16 Brogrammer
+# Author: Vik Ramanujam (http://github.com/piggyslasher)
+
+ec prompt rgb:d6dbe5
+ec swi rgb:d6dbe5
+
+ec b0x00 rgb:2dc55e
+ec b0x7f rgb:ecba0f
+ec b0xff rgb:ecba0f
+ec btext rgb:5350b9
+ec other rgb:4e5ab7
+
+ec push rgb:0f7ddb
+ec pop rgb:0f7ddb
+
+ec bin rgb:5350b9
+ec math rgb:5350b9
+ec mov rgb:5350b9
+ec call rgb:1dd361
+ec cjmp rgb:1081d6
+ec jmp rgb:1081d6
+ec cmp rgb:5350b9
+ec ret rgb:5350b9
+ec nop rgb:2dc55e
+
+ec reg rgb:d6dbe5
+ec creg rgb:de352e
+
+ec num rgb:de352e
+ec fline rgb:1dd361
+ec fname rgb:1dd361
+ec flow rgb:2a84d2
+ec flow2 rgb:2a84d2
+ec label rgb:f3bd09
+ec offset rgb:0f7ddb
+ec trap rgb:f3bd09
+ec flag rgb:0f7ddb
+ec args rgb:f3bd09
+ec invalid rgb:d6dbe5
+ec help rgb:f3bd09
+
+ec input rgb:4e5ab7
+ec comment rgb:ecba0f
+ec usrcmt rgb:4e5ab7
+
+ec ai.read rgb:de352e
+ec ai.write rgb:1dd361
+ec ai.exec rgb:1dd361
+ec ai.seq rgb:1dd361
+ec ai.ascii rgb:f3bd09
+
+ec graph.true rgb:f3bd09
+ec graph.trufae rgb:f3bd09
+ec graph.false rgb:d6dbe5
+ec graph.current rgb:4e5ab7
+ec graph.traced rgb:1dd361
+ec graph.box rgb:1081d6
+ec graph.box2 rgb:5350b9
+ec graph.box3 rgb:5350b9
+ec graph.box4 rgb:5350b9

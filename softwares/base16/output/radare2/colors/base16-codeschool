@@ -1,0 +1,60 @@
+# Base16 Codeschool
+# Author: blockloop
+
+ec prompt rgb:2a5491
+ec swi rgb:2a5491
+
+ec b0x00 rgb:2a343a
+ec b0x7f rgb:3f4944
+ec b0xff rgb:3f4944
+ec btext rgb:484d79
+ec other rgb:9ea7a6
+
+ec push rgb:c59820
+ec pop rgb:c59820
+
+ec bin rgb:484d79
+ec math rgb:484d79
+ec mov rgb:484d79
+ec call rgb:a03b1e
+ec cjmp rgb:b02f30
+ec jmp rgb:b02f30
+ec cmp rgb:484d79
+ec ret rgb:484d79
+ec nop rgb:2a343a
+
+ec reg rgb:2a5491
+ec creg rgb:43820d
+
+ec num rgb:43820d
+ec fline rgb:a03b1e
+ec fname rgb:a03b1e
+ec flow rgb:84898c
+ec flow2 rgb:84898c
+ec label rgb:237986
+ec offset rgb:c59820
+ec trap rgb:237986
+ec flag rgb:c59820
+ec args rgb:237986
+ec invalid rgb:2a5491
+ec help rgb:237986
+
+ec input rgb:9ea7a6
+ec comment rgb:3f4944
+ec usrcmt rgb:9ea7a6
+
+ec ai.read rgb:43820d
+ec ai.write rgb:a03b1e
+ec ai.exec rgb:a03b1e
+ec ai.seq rgb:a03b1e
+ec ai.ascii rgb:237986
+
+ec graph.true rgb:237986
+ec graph.trufae rgb:237986
+ec graph.false rgb:2a5491
+ec graph.current rgb:9ea7a6
+ec graph.traced rgb:a03b1e
+ec graph.box rgb:b02f30
+ec graph.box2 rgb:484d79
+ec graph.box3 rgb:484d79
+ec graph.box4 rgb:484d79

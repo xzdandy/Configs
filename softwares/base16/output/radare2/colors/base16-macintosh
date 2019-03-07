@@ -1,0 +1,60 @@
+# Base16 Macintosh
+# Author: Rebecca Bettencourt (http://www.kreativekorp.com)
+
+ec prompt rgb:dd0907
+ec swi rgb:dd0907
+
+ec b0x00 rgb:404040
+ec b0x7f rgb:808080
+ec b0xff rgb:808080
+ec btext rgb:0000d3
+ec other rgb:c0c0c0
+
+ec push rgb:4700a5
+ec pop rgb:4700a5
+
+ec bin rgb:0000d3
+ec math rgb:0000d3
+ec mov rgb:0000d3
+ec call rgb:fbf305
+ec cjmp rgb:02abea
+ec jmp rgb:02abea
+ec cmp rgb:0000d3
+ec ret rgb:0000d3
+ec nop rgb:404040
+
+ec reg rgb:dd0907
+ec creg rgb:ff6403
+
+ec num rgb:ff6403
+ec fline rgb:fbf305
+ec fname rgb:fbf305
+ec flow rgb:808080
+ec flow2 rgb:808080
+ec label rgb:1fb714
+ec offset rgb:4700a5
+ec trap rgb:1fb714
+ec flag rgb:4700a5
+ec args rgb:1fb714
+ec invalid rgb:dd0907
+ec help rgb:1fb714
+
+ec input rgb:c0c0c0
+ec comment rgb:808080
+ec usrcmt rgb:c0c0c0
+
+ec ai.read rgb:ff6403
+ec ai.write rgb:fbf305
+ec ai.exec rgb:fbf305
+ec ai.seq rgb:fbf305
+ec ai.ascii rgb:1fb714
+
+ec graph.true rgb:1fb714
+ec graph.trufae rgb:1fb714
+ec graph.false rgb:dd0907
+ec graph.current rgb:c0c0c0
+ec graph.traced rgb:fbf305
+ec graph.box rgb:02abea
+ec graph.box2 rgb:0000d3
+ec graph.box3 rgb:0000d3
+ec graph.box4 rgb:0000d3

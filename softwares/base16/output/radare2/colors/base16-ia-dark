@@ -1,0 +1,60 @@
+# Base16 iA Dark
+# Author: iA Inc. (modified by aramisgithub)
+
+ec prompt rgb:d88568
+ec swi rgb:d88568
+
+ec b0x00 rgb:1d414d
+ec b0x7f rgb:767676
+ec b0xff rgb:767676
+ec btext rgb:8eccdd
+ec other rgb:cccccc
+
+ec push rgb:b98eb2
+ec pop rgb:b98eb2
+
+ec bin rgb:8eccdd
+ec math rgb:8eccdd
+ec mov rgb:8eccdd
+ec call rgb:b99353
+ec cjmp rgb:7c9cae
+ec jmp rgb:7c9cae
+ec cmp rgb:8eccdd
+ec ret rgb:8eccdd
+ec nop rgb:1d414d
+
+ec reg rgb:d88568
+ec creg rgb:d86868
+
+ec num rgb:d86868
+ec fline rgb:b99353
+ec fname rgb:b99353
+ec flow rgb:b8b8b8
+ec flow2 rgb:b8b8b8
+ec label rgb:83a471
+ec offset rgb:b98eb2
+ec trap rgb:83a471
+ec flag rgb:b98eb2
+ec args rgb:83a471
+ec invalid rgb:d88568
+ec help rgb:83a471
+
+ec input rgb:cccccc
+ec comment rgb:767676
+ec usrcmt rgb:cccccc
+
+ec ai.read rgb:d86868
+ec ai.write rgb:b99353
+ec ai.exec rgb:b99353
+ec ai.seq rgb:b99353
+ec ai.ascii rgb:83a471
+
+ec graph.true rgb:83a471
+ec graph.trufae rgb:83a471
+ec graph.false rgb:d88568
+ec graph.current rgb:cccccc
+ec graph.traced rgb:b99353
+ec graph.box rgb:7c9cae
+ec graph.box2 rgb:8eccdd
+ec graph.box3 rgb:8eccdd
+ec graph.box4 rgb:8eccdd

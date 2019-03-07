@@ -1,0 +1,60 @@
+# Base16 OneDark
+# Author: Lalit Magant (http://github.com/tilal6991)
+
+ec prompt rgb:e06c75
+ec swi rgb:e06c75
+
+ec b0x00 rgb:3e4451
+ec b0x7f rgb:545862
+ec b0xff rgb:545862
+ec btext rgb:61afef
+ec other rgb:abb2bf
+
+ec push rgb:c678dd
+ec pop rgb:c678dd
+
+ec bin rgb:61afef
+ec math rgb:61afef
+ec mov rgb:61afef
+ec call rgb:e5c07b
+ec cjmp rgb:56b6c2
+ec jmp rgb:56b6c2
+ec cmp rgb:61afef
+ec ret rgb:61afef
+ec nop rgb:3e4451
+
+ec reg rgb:e06c75
+ec creg rgb:d19a66
+
+ec num rgb:d19a66
+ec fline rgb:e5c07b
+ec fname rgb:e5c07b
+ec flow rgb:565c64
+ec flow2 rgb:565c64
+ec label rgb:98c379
+ec offset rgb:c678dd
+ec trap rgb:98c379
+ec flag rgb:c678dd
+ec args rgb:98c379
+ec invalid rgb:e06c75
+ec help rgb:98c379
+
+ec input rgb:abb2bf
+ec comment rgb:545862
+ec usrcmt rgb:abb2bf
+
+ec ai.read rgb:d19a66
+ec ai.write rgb:e5c07b
+ec ai.exec rgb:e5c07b
+ec ai.seq rgb:e5c07b
+ec ai.ascii rgb:98c379
+
+ec graph.true rgb:98c379
+ec graph.trufae rgb:98c379
+ec graph.false rgb:e06c75
+ec graph.current rgb:abb2bf
+ec graph.traced rgb:e5c07b
+ec graph.box rgb:56b6c2
+ec graph.box2 rgb:61afef
+ec graph.box3 rgb:61afef
+ec graph.box4 rgb:61afef

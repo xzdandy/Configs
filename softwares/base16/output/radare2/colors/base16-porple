@@ -1,0 +1,60 @@
+# Base16 Porple
+# Author: Niek den Breeje (https://github.com/AuditeMarlow)
+
+ec prompt rgb:f84547
+ec swi rgb:f84547
+
+ec b0x00 rgb:474160
+ec b0x7f rgb:65568a
+ec b0xff rgb:65568a
+ec btext rgb:8485ce
+ec other rgb:d8d8d8
+
+ec push rgb:b74989
+ec pop rgb:b74989
+
+ec bin rgb:8485ce
+ec math rgb:8485ce
+ec mov rgb:8485ce
+ec call rgb:efa16b
+ec cjmp rgb:64878f
+ec jmp rgb:64878f
+ec cmp rgb:8485ce
+ec ret rgb:8485ce
+ec nop rgb:474160
+
+ec reg rgb:f84547
+ec creg rgb:d28e5d
+
+ec num rgb:d28e5d
+ec fline rgb:efa16b
+ec fname rgb:efa16b
+ec flow rgb:b8b8b8
+ec flow2 rgb:b8b8b8
+ec label rgb:95c76f
+ec offset rgb:b74989
+ec trap rgb:95c76f
+ec flag rgb:b74989
+ec args rgb:95c76f
+ec invalid rgb:f84547
+ec help rgb:95c76f
+
+ec input rgb:d8d8d8
+ec comment rgb:65568a
+ec usrcmt rgb:d8d8d8
+
+ec ai.read rgb:d28e5d
+ec ai.write rgb:efa16b
+ec ai.exec rgb:efa16b
+ec ai.seq rgb:efa16b
+ec ai.ascii rgb:95c76f
+
+ec graph.true rgb:95c76f
+ec graph.trufae rgb:95c76f
+ec graph.false rgb:f84547
+ec graph.current rgb:d8d8d8
+ec graph.traced rgb:efa16b
+ec graph.box rgb:64878f
+ec graph.box2 rgb:8485ce
+ec graph.box3 rgb:8485ce
+ec graph.box4 rgb:8485ce

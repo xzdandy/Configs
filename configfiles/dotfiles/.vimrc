@@ -6,6 +6,7 @@ Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
 Plug 'mbbill/undotree'
 Plug 'rust-lang/rust.vim'
+Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -93,9 +94,19 @@ set tm=500
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
-syntax enable 
 
+syntax enable 
 set background=light
+
+let g:PaperColor_Theme_Options = {
+  \   'theme': {
+  \     'default': {
+  \       'transparent_background': 1
+  \     }
+  \   }
+  \ }
+
+colorscheme PaperColor
 
 "try
 "    colorscheme PaperColor

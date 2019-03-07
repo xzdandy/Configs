@@ -1,0 +1,60 @@
+# Base16 Outrun Dark
+# Author: Hugo Delahousse (http://github.com/hugodelahousse/)
+
+ec prompt rgb:FF4242
+ec swi rgb:FF4242
+
+ec b0x00 rgb:30305A
+ec b0x7f rgb:50507A
+ec b0xff rgb:50507A
+ec btext rgb:66B0FF
+ec other rgb:D0D0FA
+
+ec push rgb:F10596
+ec pop rgb:F10596
+
+ec bin rgb:66B0FF
+ec math rgb:66B0FF
+ec mov rgb:66B0FF
+ec call rgb:F3E877
+ec cjmp rgb:0EF0F0
+ec jmp rgb:0EF0F0
+ec cmp rgb:66B0FF
+ec ret rgb:66B0FF
+ec nop rgb:30305A
+
+ec reg rgb:FF4242
+ec creg rgb:FC8D28
+
+ec num rgb:FC8D28
+ec fline rgb:F3E877
+ec fname rgb:F3E877
+ec flow rgb:B0B0DA
+ec flow2 rgb:B0B0DA
+ec label rgb:59F176
+ec offset rgb:F10596
+ec trap rgb:59F176
+ec flag rgb:F10596
+ec args rgb:59F176
+ec invalid rgb:FF4242
+ec help rgb:59F176
+
+ec input rgb:D0D0FA
+ec comment rgb:50507A
+ec usrcmt rgb:D0D0FA
+
+ec ai.read rgb:FC8D28
+ec ai.write rgb:F3E877
+ec ai.exec rgb:F3E877
+ec ai.seq rgb:F3E877
+ec ai.ascii rgb:59F176
+
+ec graph.true rgb:59F176
+ec graph.trufae rgb:59F176
+ec graph.false rgb:FF4242
+ec graph.current rgb:D0D0FA
+ec graph.traced rgb:F3E877
+ec graph.box rgb:0EF0F0
+ec graph.box2 rgb:66B0FF
+ec graph.box3 rgb:66B0FF
+ec graph.box4 rgb:66B0FF

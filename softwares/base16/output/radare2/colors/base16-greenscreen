@@ -1,0 +1,60 @@
+# Base16 Green Screen
+# Author: Chris Kempson (http://chriskempson.com)
+
+ec prompt rgb:007700
+ec swi rgb:007700
+
+ec b0x00 rgb:005500
+ec b0x7f rgb:007700
+ec b0xff rgb:007700
+ec btext rgb:009900
+ec other rgb:00bb00
+
+ec push rgb:00bb00
+ec pop rgb:00bb00
+
+ec bin rgb:009900
+ec math rgb:009900
+ec mov rgb:009900
+ec call rgb:007700
+ec cjmp rgb:005500
+ec jmp rgb:005500
+ec cmp rgb:009900
+ec ret rgb:009900
+ec nop rgb:005500
+
+ec reg rgb:007700
+ec creg rgb:009900
+
+ec num rgb:009900
+ec fline rgb:007700
+ec fname rgb:007700
+ec flow rgb:009900
+ec flow2 rgb:009900
+ec label rgb:00bb00
+ec offset rgb:00bb00
+ec trap rgb:00bb00
+ec flag rgb:00bb00
+ec args rgb:00bb00
+ec invalid rgb:007700
+ec help rgb:00bb00
+
+ec input rgb:00bb00
+ec comment rgb:007700
+ec usrcmt rgb:00bb00
+
+ec ai.read rgb:009900
+ec ai.write rgb:007700
+ec ai.exec rgb:007700
+ec ai.seq rgb:007700
+ec ai.ascii rgb:00bb00
+
+ec graph.true rgb:00bb00
+ec graph.trufae rgb:00bb00
+ec graph.false rgb:007700
+ec graph.current rgb:00bb00
+ec graph.traced rgb:007700
+ec graph.box rgb:005500
+ec graph.box2 rgb:009900
+ec graph.box3 rgb:009900
+ec graph.box4 rgb:009900

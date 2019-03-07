@@ -1,0 +1,60 @@
+# Base16 Eighties
+# Author: Chris Kempson (http://chriskempson.com)
+
+ec prompt rgb:f2777a
+ec swi rgb:f2777a
+
+ec b0x00 rgb:515151
+ec b0x7f rgb:747369
+ec b0xff rgb:747369
+ec btext rgb:6699cc
+ec other rgb:d3d0c8
+
+ec push rgb:cc99cc
+ec pop rgb:cc99cc
+
+ec bin rgb:6699cc
+ec math rgb:6699cc
+ec mov rgb:6699cc
+ec call rgb:ffcc66
+ec cjmp rgb:66cccc
+ec jmp rgb:66cccc
+ec cmp rgb:6699cc
+ec ret rgb:6699cc
+ec nop rgb:515151
+
+ec reg rgb:f2777a
+ec creg rgb:f99157
+
+ec num rgb:f99157
+ec fline rgb:ffcc66
+ec fname rgb:ffcc66
+ec flow rgb:a09f93
+ec flow2 rgb:a09f93
+ec label rgb:99cc99
+ec offset rgb:cc99cc
+ec trap rgb:99cc99
+ec flag rgb:cc99cc
+ec args rgb:99cc99
+ec invalid rgb:f2777a
+ec help rgb:99cc99
+
+ec input rgb:d3d0c8
+ec comment rgb:747369
+ec usrcmt rgb:d3d0c8
+
+ec ai.read rgb:f99157
+ec ai.write rgb:ffcc66
+ec ai.exec rgb:ffcc66
+ec ai.seq rgb:ffcc66
+ec ai.ascii rgb:99cc99
+
+ec graph.true rgb:99cc99
+ec graph.trufae rgb:99cc99
+ec graph.false rgb:f2777a
+ec graph.current rgb:d3d0c8
+ec graph.traced rgb:ffcc66
+ec graph.box rgb:66cccc
+ec graph.box2 rgb:6699cc
+ec graph.box3 rgb:6699cc
+ec graph.box4 rgb:6699cc

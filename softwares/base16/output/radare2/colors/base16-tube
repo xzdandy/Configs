@@ -1,0 +1,60 @@
+# Base16 London Tube
+# Author: Jan T. Sott
+
+ec prompt rgb:ee2e24
+ec swi rgb:ee2e24
+
+ec b0x00 rgb:5a5758
+ec b0x7f rgb:737171
+ec b0xff rgb:737171
+ec btext rgb:009ddc
+ec other rgb:d9d8d8
+
+ec push rgb:98005d
+ec pop rgb:98005d
+
+ec bin rgb:009ddc
+ec math rgb:009ddc
+ec mov rgb:009ddc
+ec call rgb:ffd204
+ec cjmp rgb:85cebc
+ec jmp rgb:85cebc
+ec cmp rgb:009ddc
+ec ret rgb:009ddc
+ec nop rgb:5a5758
+
+ec reg rgb:ee2e24
+ec creg rgb:f386a1
+
+ec num rgb:f386a1
+ec fline rgb:ffd204
+ec fname rgb:ffd204
+ec flow rgb:959ca1
+ec flow2 rgb:959ca1
+ec label rgb:00853e
+ec offset rgb:98005d
+ec trap rgb:00853e
+ec flag rgb:98005d
+ec args rgb:00853e
+ec invalid rgb:ee2e24
+ec help rgb:00853e
+
+ec input rgb:d9d8d8
+ec comment rgb:737171
+ec usrcmt rgb:d9d8d8
+
+ec ai.read rgb:f386a1
+ec ai.write rgb:ffd204
+ec ai.exec rgb:ffd204
+ec ai.seq rgb:ffd204
+ec ai.ascii rgb:00853e
+
+ec graph.true rgb:00853e
+ec graph.trufae rgb:00853e
+ec graph.false rgb:ee2e24
+ec graph.current rgb:d9d8d8
+ec graph.traced rgb:ffd204
+ec graph.box rgb:85cebc
+ec graph.box2 rgb:009ddc
+ec graph.box3 rgb:009ddc
+ec graph.box4 rgb:009ddc

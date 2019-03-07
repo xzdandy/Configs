@@ -1,0 +1,60 @@
+# Base16 XCode Dusk
+# Author: Elsa Gonsiorowski (https://github.com/gonsie)
+
+ec prompt rgb:B21889
+ec swi rgb:B21889
+
+ec b0x00 rgb:53555D
+ec b0x7f rgb:686A71
+ec b0xff rgb:686A71
+ec btext rgb:790EAD
+ec other rgb:939599
+
+ec push rgb:B21889
+ec pop rgb:B21889
+
+ec bin rgb:790EAD
+ec math rgb:790EAD
+ec mov rgb:790EAD
+ec call rgb:438288
+ec cjmp rgb:00A0BE
+ec jmp rgb:00A0BE
+ec cmp rgb:790EAD
+ec ret rgb:790EAD
+ec nop rgb:53555D
+
+ec reg rgb:B21889
+ec creg rgb:786DC5
+
+ec num rgb:786DC5
+ec fline rgb:438288
+ec fname rgb:438288
+ec flow rgb:7E8086
+ec flow2 rgb:7E8086
+ec label rgb:DF0002
+ec offset rgb:B21889
+ec trap rgb:DF0002
+ec flag rgb:B21889
+ec args rgb:DF0002
+ec invalid rgb:B21889
+ec help rgb:DF0002
+
+ec input rgb:939599
+ec comment rgb:686A71
+ec usrcmt rgb:939599
+
+ec ai.read rgb:786DC5
+ec ai.write rgb:438288
+ec ai.exec rgb:438288
+ec ai.seq rgb:438288
+ec ai.ascii rgb:DF0002
+
+ec graph.true rgb:DF0002
+ec graph.trufae rgb:DF0002
+ec graph.false rgb:B21889
+ec graph.current rgb:939599
+ec graph.traced rgb:438288
+ec graph.box rgb:00A0BE
+ec graph.box2 rgb:790EAD
+ec graph.box3 rgb:790EAD
+ec graph.box4 rgb:790EAD

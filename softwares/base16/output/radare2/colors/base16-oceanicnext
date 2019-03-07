@@ -1,0 +1,60 @@
+# Base16 OceanicNext
+# Author: https://github.com/voronianski/oceanic-next-color-scheme
+
+ec prompt rgb:EC5f67
+ec swi rgb:EC5f67
+
+ec b0x00 rgb:4F5B66
+ec b0x7f rgb:65737E
+ec b0xff rgb:65737E
+ec btext rgb:6699CC
+ec other rgb:C0C5CE
+
+ec push rgb:C594C5
+ec pop rgb:C594C5
+
+ec bin rgb:6699CC
+ec math rgb:6699CC
+ec mov rgb:6699CC
+ec call rgb:FAC863
+ec cjmp rgb:5FB3B3
+ec jmp rgb:5FB3B3
+ec cmp rgb:6699CC
+ec ret rgb:6699CC
+ec nop rgb:4F5B66
+
+ec reg rgb:EC5f67
+ec creg rgb:F99157
+
+ec num rgb:F99157
+ec fline rgb:FAC863
+ec fname rgb:FAC863
+ec flow rgb:A7ADBA
+ec flow2 rgb:A7ADBA
+ec label rgb:99C794
+ec offset rgb:C594C5
+ec trap rgb:99C794
+ec flag rgb:C594C5
+ec args rgb:99C794
+ec invalid rgb:EC5f67
+ec help rgb:99C794
+
+ec input rgb:C0C5CE
+ec comment rgb:65737E
+ec usrcmt rgb:C0C5CE
+
+ec ai.read rgb:F99157
+ec ai.write rgb:FAC863
+ec ai.exec rgb:FAC863
+ec ai.seq rgb:FAC863
+ec ai.ascii rgb:99C794
+
+ec graph.true rgb:99C794
+ec graph.trufae rgb:99C794
+ec graph.false rgb:EC5f67
+ec graph.current rgb:C0C5CE
+ec graph.traced rgb:FAC863
+ec graph.box rgb:5FB3B3
+ec graph.box2 rgb:6699CC
+ec graph.box3 rgb:6699CC
+ec graph.box4 rgb:6699CC

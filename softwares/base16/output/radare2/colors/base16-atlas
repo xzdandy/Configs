@@ -1,0 +1,60 @@
+# Base16 Atlas
+# Author: Alex Lende (https://ajlende.com)
+
+ec prompt rgb:ff5a67
+ec swi rgb:ff5a67
+
+ec b0x00 rgb:517F8D
+ec b0x7f rgb:6C8B91
+ec b0xff rgb:6C8B91
+ec btext rgb:5dd7b9
+ec other rgb:a1a19a
+
+ec push rgb:9a70a4
+ec pop rgb:9a70a4
+
+ec bin rgb:5dd7b9
+ec math rgb:5dd7b9
+ec mov rgb:5dd7b9
+ec call rgb:ffcc1b
+ec cjmp rgb:14747e
+ec jmp rgb:14747e
+ec cmp rgb:5dd7b9
+ec ret rgb:5dd7b9
+ec nop rgb:517F8D
+
+ec reg rgb:ff5a67
+ec creg rgb:f08e48
+
+ec num rgb:f08e48
+ec fline rgb:ffcc1b
+ec fname rgb:ffcc1b
+ec flow rgb:869696
+ec flow2 rgb:869696
+ec label rgb:7fc06e
+ec offset rgb:9a70a4
+ec trap rgb:7fc06e
+ec flag rgb:9a70a4
+ec args rgb:7fc06e
+ec invalid rgb:ff5a67
+ec help rgb:7fc06e
+
+ec input rgb:a1a19a
+ec comment rgb:6C8B91
+ec usrcmt rgb:a1a19a
+
+ec ai.read rgb:f08e48
+ec ai.write rgb:ffcc1b
+ec ai.exec rgb:ffcc1b
+ec ai.seq rgb:ffcc1b
+ec ai.ascii rgb:7fc06e
+
+ec graph.true rgb:7fc06e
+ec graph.trufae rgb:7fc06e
+ec graph.false rgb:ff5a67
+ec graph.current rgb:a1a19a
+ec graph.traced rgb:ffcc1b
+ec graph.box rgb:14747e
+ec graph.box2 rgb:5dd7b9
+ec graph.box3 rgb:5dd7b9
+ec graph.box4 rgb:5dd7b9

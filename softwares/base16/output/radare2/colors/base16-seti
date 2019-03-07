@@ -1,0 +1,60 @@
+# Base16 Seti UI
+# Author: 
+
+ec prompt rgb:Cd3f45
+ec swi rgb:Cd3f45
+
+ec b0x00 rgb:3B758C
+ec b0x7f rgb:41535B
+ec b0xff rgb:41535B
+ec btext rgb:55b5db
+ec other rgb:d6d6d6
+
+ec push rgb:a074c4
+ec pop rgb:a074c4
+
+ec bin rgb:55b5db
+ec math rgb:55b5db
+ec mov rgb:55b5db
+ec call rgb:e6cd69
+ec cjmp rgb:55dbbe
+ec jmp rgb:55dbbe
+ec cmp rgb:55b5db
+ec ret rgb:55b5db
+ec nop rgb:3B758C
+
+ec reg rgb:Cd3f45
+ec creg rgb:db7b55
+
+ec num rgb:db7b55
+ec fline rgb:e6cd69
+ec fname rgb:e6cd69
+ec flow rgb:43a5d5
+ec flow2 rgb:43a5d5
+ec label rgb:9fca56
+ec offset rgb:a074c4
+ec trap rgb:9fca56
+ec flag rgb:a074c4
+ec args rgb:9fca56
+ec invalid rgb:Cd3f45
+ec help rgb:9fca56
+
+ec input rgb:d6d6d6
+ec comment rgb:41535B
+ec usrcmt rgb:d6d6d6
+
+ec ai.read rgb:db7b55
+ec ai.write rgb:e6cd69
+ec ai.exec rgb:e6cd69
+ec ai.seq rgb:e6cd69
+ec ai.ascii rgb:9fca56
+
+ec graph.true rgb:9fca56
+ec graph.trufae rgb:9fca56
+ec graph.false rgb:Cd3f45
+ec graph.current rgb:d6d6d6
+ec graph.traced rgb:e6cd69
+ec graph.box rgb:55dbbe
+ec graph.box2 rgb:55b5db
+ec graph.box3 rgb:55b5db
+ec graph.box4 rgb:55b5db

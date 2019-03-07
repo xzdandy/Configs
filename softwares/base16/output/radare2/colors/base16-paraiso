@@ -1,0 +1,60 @@
+# Base16 Paraiso
+# Author: Jan T. Sott
+
+ec prompt rgb:ef6155
+ec swi rgb:ef6155
+
+ec b0x00 rgb:4f424c
+ec b0x7f rgb:776e71
+ec b0xff rgb:776e71
+ec btext rgb:06b6ef
+ec other rgb:a39e9b
+
+ec push rgb:815ba4
+ec pop rgb:815ba4
+
+ec bin rgb:06b6ef
+ec math rgb:06b6ef
+ec mov rgb:06b6ef
+ec call rgb:fec418
+ec cjmp rgb:5bc4bf
+ec jmp rgb:5bc4bf
+ec cmp rgb:06b6ef
+ec ret rgb:06b6ef
+ec nop rgb:4f424c
+
+ec reg rgb:ef6155
+ec creg rgb:f99b15
+
+ec num rgb:f99b15
+ec fline rgb:fec418
+ec fname rgb:fec418
+ec flow rgb:8d8687
+ec flow2 rgb:8d8687
+ec label rgb:48b685
+ec offset rgb:815ba4
+ec trap rgb:48b685
+ec flag rgb:815ba4
+ec args rgb:48b685
+ec invalid rgb:ef6155
+ec help rgb:48b685
+
+ec input rgb:a39e9b
+ec comment rgb:776e71
+ec usrcmt rgb:a39e9b
+
+ec ai.read rgb:f99b15
+ec ai.write rgb:fec418
+ec ai.exec rgb:fec418
+ec ai.seq rgb:fec418
+ec ai.ascii rgb:48b685
+
+ec graph.true rgb:48b685
+ec graph.trufae rgb:48b685
+ec graph.false rgb:ef6155
+ec graph.current rgb:a39e9b
+ec graph.traced rgb:fec418
+ec graph.box rgb:5bc4bf
+ec graph.box2 rgb:06b6ef
+ec graph.box3 rgb:06b6ef
+ec graph.box4 rgb:06b6ef

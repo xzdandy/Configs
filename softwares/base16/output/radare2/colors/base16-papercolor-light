@@ -1,0 +1,60 @@
+# Base16 PaperColor-Light
+# Author: Nguyen Nguyen (http://github.com/NLKNguyen)
+
+ec prompt rgb:8959a8
+ec swi rgb:8959a8
+
+ec b0x00 rgb:d0d0d0
+ec b0x7f rgb:949494
+ec b0xff rgb:949494
+ec btext rgb:005f87
+ec other rgb:4d4d4c
+
+ec push rgb:d7005f
+ec pop rgb:d7005f
+
+ec bin rgb:005f87
+ec math rgb:005f87
+ec mov rgb:005f87
+ec call rgb:4271ae
+ec cjmp rgb:3e999f
+ec jmp rgb:3e999f
+ec cmp rgb:005f87
+ec ret rgb:005f87
+ec nop rgb:d0d0d0
+
+ec reg rgb:8959a8
+ec creg rgb:d75f00
+
+ec num rgb:d75f00
+ec fline rgb:4271ae
+ec fname rgb:4271ae
+ec flow rgb:808080
+ec flow2 rgb:808080
+ec label rgb:718c00
+ec offset rgb:d7005f
+ec trap rgb:718c00
+ec flag rgb:d7005f
+ec args rgb:718c00
+ec invalid rgb:8959a8
+ec help rgb:718c00
+
+ec input rgb:4d4d4c
+ec comment rgb:949494
+ec usrcmt rgb:4d4d4c
+
+ec ai.read rgb:d75f00
+ec ai.write rgb:4271ae
+ec ai.exec rgb:4271ae
+ec ai.seq rgb:4271ae
+ec ai.ascii rgb:718c00
+
+ec graph.true rgb:718c00
+ec graph.trufae rgb:718c00
+ec graph.false rgb:8959a8
+ec graph.current rgb:4d4d4c
+ec graph.traced rgb:4271ae
+ec graph.box rgb:3e999f
+ec graph.box2 rgb:005f87
+ec graph.box3 rgb:005f87
+ec graph.box4 rgb:005f87

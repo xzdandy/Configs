@@ -1,0 +1,60 @@
+# Base16 PaperColor Dark
+# Author: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+
+ec prompt rgb:585858
+ec swi rgb:585858
+
+ec b0x00 rgb:5faf00
+ec b0x7f rgb:d7af5f
+ec b0xff rgb:d7af5f
+ec btext rgb:ff5faf
+ec other rgb:808080
+
+ec push rgb:00afaf
+ec pop rgb:00afaf
+
+ec bin rgb:ff5faf
+ec math rgb:ff5faf
+ec mov rgb:ff5faf
+ec call rgb:afd700
+ec cjmp rgb:ffaf00
+ec jmp rgb:ffaf00
+ec cmp rgb:ff5faf
+ec ret rgb:ff5faf
+ec nop rgb:5faf00
+
+ec reg rgb:585858
+ec creg rgb:5faf5f
+
+ec num rgb:5faf5f
+ec fline rgb:afd700
+ec fname rgb:afd700
+ec flow rgb:5fafd7
+ec flow2 rgb:5fafd7
+ec label rgb:af87d7
+ec offset rgb:00afaf
+ec trap rgb:af87d7
+ec flag rgb:00afaf
+ec args rgb:af87d7
+ec invalid rgb:585858
+ec help rgb:af87d7
+
+ec input rgb:808080
+ec comment rgb:d7af5f
+ec usrcmt rgb:808080
+
+ec ai.read rgb:5faf5f
+ec ai.write rgb:afd700
+ec ai.exec rgb:afd700
+ec ai.seq rgb:afd700
+ec ai.ascii rgb:af87d7
+
+ec graph.true rgb:af87d7
+ec graph.trufae rgb:af87d7
+ec graph.false rgb:585858
+ec graph.current rgb:808080
+ec graph.traced rgb:afd700
+ec graph.box rgb:ffaf00
+ec graph.box2 rgb:ff5faf
+ec graph.box3 rgb:ff5faf
+ec graph.box4 rgb:ff5faf

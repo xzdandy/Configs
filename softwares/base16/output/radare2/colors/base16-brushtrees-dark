@@ -1,0 +1,60 @@
+# Base16 Brush Trees Dark
+# Author: Abraham White &lt;abelincoln.white@gmail.com&gt;
+
+ec prompt rgb:b38686
+ec swi rgb:b38686
+
+ec b0x00 rgb:6D828E
+ec b0x7f rgb:8299A1
+ec b0xff rgb:8299A1
+ec btext rgb:868cb3
+ec other rgb:B0C5C8
+
+ec push rgb:b386b2
+ec pop rgb:b386b2
+
+ec bin rgb:868cb3
+ec math rgb:868cb3
+ec mov rgb:868cb3
+ec call rgb:aab386
+ec cjmp rgb:86b3b3
+ec jmp rgb:86b3b3
+ec cmp rgb:868cb3
+ec ret rgb:868cb3
+ec nop rgb:6D828E
+
+ec reg rgb:b38686
+ec creg rgb:d8bba2
+
+ec num rgb:d8bba2
+ec fline rgb:aab386
+ec fname rgb:aab386
+ec flow rgb:98AFB5
+ec flow2 rgb:98AFB5
+ec label rgb:87b386
+ec offset rgb:b386b2
+ec trap rgb:87b386
+ec flag rgb:b386b2
+ec args rgb:87b386
+ec invalid rgb:b38686
+ec help rgb:87b386
+
+ec input rgb:B0C5C8
+ec comment rgb:8299A1
+ec usrcmt rgb:B0C5C8
+
+ec ai.read rgb:d8bba2
+ec ai.write rgb:aab386
+ec ai.exec rgb:aab386
+ec ai.seq rgb:aab386
+ec ai.ascii rgb:87b386
+
+ec graph.true rgb:87b386
+ec graph.trufae rgb:87b386
+ec graph.false rgb:b38686
+ec graph.current rgb:B0C5C8
+ec graph.traced rgb:aab386
+ec graph.box rgb:86b3b3
+ec graph.box2 rgb:868cb3
+ec graph.box3 rgb:868cb3
+ec graph.box4 rgb:868cb3

@@ -1,0 +1,60 @@
+# Base16 Heetch Dark
+# Author: Geoffrey Teale (tealeg@gmail.com)
+
+ec prompt rgb:27D9D5
+ec swi rgb:27D9D5
+
+ec b0x00 rgb:5A496E
+ec b0x7f rgb:7B6D8B
+ec b0xff rgb:7B6D8B
+ec btext rgb:BD0152
+ec other rgb:BDB6C5
+
+ec push rgb:82034C
+ec pop rgb:82034C
+
+ec bin rgb:BD0152
+ec math rgb:BD0152
+ec mov rgb:BD0152
+ec call rgb:8F6C97
+ec cjmp rgb:F80059
+ec jmp rgb:F80059
+ec cmp rgb:BD0152
+ec ret rgb:BD0152
+ec nop rgb:5A496E
+
+ec reg rgb:27D9D5
+ec creg rgb:5BA2B6
+
+ec num rgb:5BA2B6
+ec fline rgb:8F6C97
+ec fname rgb:8F6C97
+ec flow rgb:9C92A8
+ec flow2 rgb:9C92A8
+ec label rgb:C33678
+ec offset rgb:82034C
+ec trap rgb:C33678
+ec flag rgb:82034C
+ec args rgb:C33678
+ec invalid rgb:27D9D5
+ec help rgb:C33678
+
+ec input rgb:BDB6C5
+ec comment rgb:7B6D8B
+ec usrcmt rgb:BDB6C5
+
+ec ai.read rgb:5BA2B6
+ec ai.write rgb:8F6C97
+ec ai.exec rgb:8F6C97
+ec ai.seq rgb:8F6C97
+ec ai.ascii rgb:C33678
+
+ec graph.true rgb:C33678
+ec graph.trufae rgb:C33678
+ec graph.false rgb:27D9D5
+ec graph.current rgb:BDB6C5
+ec graph.traced rgb:8F6C97
+ec graph.box rgb:F80059
+ec graph.box2 rgb:BD0152
+ec graph.box3 rgb:BD0152
+ec graph.box4 rgb:BD0152

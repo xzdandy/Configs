@@ -1,0 +1,60 @@
+# Base16 Circus
+# Author: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
+
+ec prompt rgb:dc657d
+ec swi rgb:dc657d
+
+ec b0x00 rgb:303030
+ec b0x7f rgb:5f5a60
+ec b0xff rgb:5f5a60
+ec btext rgb:639ee4
+ec other rgb:a7a7a7
+
+ec push rgb:b888e2
+ec pop rgb:b888e2
+
+ec bin rgb:639ee4
+ec math rgb:639ee4
+ec mov rgb:639ee4
+ec call rgb:c3ba63
+ec cjmp rgb:4bb1a7
+ec jmp rgb:4bb1a7
+ec cmp rgb:639ee4
+ec ret rgb:639ee4
+ec nop rgb:303030
+
+ec reg rgb:dc657d
+ec creg rgb:4bb1a7
+
+ec num rgb:4bb1a7
+ec fline rgb:c3ba63
+ec fname rgb:c3ba63
+ec flow rgb:505050
+ec flow2 rgb:505050
+ec label rgb:84b97c
+ec offset rgb:b888e2
+ec trap rgb:84b97c
+ec flag rgb:b888e2
+ec args rgb:84b97c
+ec invalid rgb:dc657d
+ec help rgb:84b97c
+
+ec input rgb:a7a7a7
+ec comment rgb:5f5a60
+ec usrcmt rgb:a7a7a7
+
+ec ai.read rgb:4bb1a7
+ec ai.write rgb:c3ba63
+ec ai.exec rgb:c3ba63
+ec ai.seq rgb:c3ba63
+ec ai.ascii rgb:84b97c
+
+ec graph.true rgb:84b97c
+ec graph.trufae rgb:84b97c
+ec graph.false rgb:dc657d
+ec graph.current rgb:a7a7a7
+ec graph.traced rgb:c3ba63
+ec graph.box rgb:4bb1a7
+ec graph.box2 rgb:639ee4
+ec graph.box3 rgb:639ee4
+ec graph.box4 rgb:639ee4

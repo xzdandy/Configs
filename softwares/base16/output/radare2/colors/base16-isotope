@@ -1,0 +1,60 @@
+# Base16 Isotope
+# Author: Jan T. Sott
+
+ec prompt rgb:ff0000
+ec swi rgb:ff0000
+
+ec b0x00 rgb:606060
+ec b0x7f rgb:808080
+ec b0xff rgb:808080
+ec btext rgb:0066ff
+ec other rgb:d0d0d0
+
+ec push rgb:cc00ff
+ec pop rgb:cc00ff
+
+ec bin rgb:0066ff
+ec math rgb:0066ff
+ec mov rgb:0066ff
+ec call rgb:ff0099
+ec cjmp rgb:00ffff
+ec jmp rgb:00ffff
+ec cmp rgb:0066ff
+ec ret rgb:0066ff
+ec nop rgb:606060
+
+ec reg rgb:ff0000
+ec creg rgb:ff9900
+
+ec num rgb:ff9900
+ec fline rgb:ff0099
+ec fname rgb:ff0099
+ec flow rgb:c0c0c0
+ec flow2 rgb:c0c0c0
+ec label rgb:33ff00
+ec offset rgb:cc00ff
+ec trap rgb:33ff00
+ec flag rgb:cc00ff
+ec args rgb:33ff00
+ec invalid rgb:ff0000
+ec help rgb:33ff00
+
+ec input rgb:d0d0d0
+ec comment rgb:808080
+ec usrcmt rgb:d0d0d0
+
+ec ai.read rgb:ff9900
+ec ai.write rgb:ff0099
+ec ai.exec rgb:ff0099
+ec ai.seq rgb:ff0099
+ec ai.ascii rgb:33ff00
+
+ec graph.true rgb:33ff00
+ec graph.trufae rgb:33ff00
+ec graph.false rgb:ff0000
+ec graph.current rgb:d0d0d0
+ec graph.traced rgb:ff0099
+ec graph.box rgb:00ffff
+ec graph.box2 rgb:0066ff
+ec graph.box3 rgb:0066ff
+ec graph.box4 rgb:0066ff

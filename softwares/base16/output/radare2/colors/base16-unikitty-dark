@@ -1,0 +1,60 @@
+# Base16 Unikitty Dark
+# Author: Josh W Lewis (@joshwlewis)
+
+ec prompt rgb:d8137f
+ec swi rgb:d8137f
+
+ec b0x00 rgb:666369
+ec b0x7f rgb:838085
+ec b0xff rgb:838085
+ec btext rgb:796af5
+ec other rgb:bcbabe
+
+ec push rgb:bb60ea
+ec pop rgb:bb60ea
+
+ec bin rgb:796af5
+ec math rgb:796af5
+ec mov rgb:796af5
+ec call rgb:dc8a0e
+ec cjmp rgb:149bda
+ec jmp rgb:149bda
+ec cmp rgb:796af5
+ec ret rgb:796af5
+ec nop rgb:666369
+
+ec reg rgb:d8137f
+ec creg rgb:d65407
+
+ec num rgb:d65407
+ec fline rgb:dc8a0e
+ec fname rgb:dc8a0e
+ec flow rgb:9f9da2
+ec flow2 rgb:9f9da2
+ec label rgb:17ad98
+ec offset rgb:bb60ea
+ec trap rgb:17ad98
+ec flag rgb:bb60ea
+ec args rgb:17ad98
+ec invalid rgb:d8137f
+ec help rgb:17ad98
+
+ec input rgb:bcbabe
+ec comment rgb:838085
+ec usrcmt rgb:bcbabe
+
+ec ai.read rgb:d65407
+ec ai.write rgb:dc8a0e
+ec ai.exec rgb:dc8a0e
+ec ai.seq rgb:dc8a0e
+ec ai.ascii rgb:17ad98
+
+ec graph.true rgb:17ad98
+ec graph.trufae rgb:17ad98
+ec graph.false rgb:d8137f
+ec graph.current rgb:bcbabe
+ec graph.traced rgb:dc8a0e
+ec graph.box rgb:149bda
+ec graph.box2 rgb:796af5
+ec graph.box3 rgb:796af5
+ec graph.box4 rgb:796af5

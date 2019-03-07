@@ -1,0 +1,60 @@
+# Base16 Google Dark
+# Author: Seth Wright (http://sethawright.com)
+
+ec prompt rgb:CC342B
+ec swi rgb:CC342B
+
+ec b0x00 rgb:373b41
+ec b0x7f rgb:969896
+ec b0xff rgb:969896
+ec btext rgb:3971ED
+ec other rgb:c5c8c6
+
+ec push rgb:A36AC7
+ec pop rgb:A36AC7
+
+ec bin rgb:3971ED
+ec math rgb:3971ED
+ec mov rgb:3971ED
+ec call rgb:FBA922
+ec cjmp rgb:3971ED
+ec jmp rgb:3971ED
+ec cmp rgb:3971ED
+ec ret rgb:3971ED
+ec nop rgb:373b41
+
+ec reg rgb:CC342B
+ec creg rgb:F96A38
+
+ec num rgb:F96A38
+ec fline rgb:FBA922
+ec fname rgb:FBA922
+ec flow rgb:b4b7b4
+ec flow2 rgb:b4b7b4
+ec label rgb:198844
+ec offset rgb:A36AC7
+ec trap rgb:198844
+ec flag rgb:A36AC7
+ec args rgb:198844
+ec invalid rgb:CC342B
+ec help rgb:198844
+
+ec input rgb:c5c8c6
+ec comment rgb:969896
+ec usrcmt rgb:c5c8c6
+
+ec ai.read rgb:F96A38
+ec ai.write rgb:FBA922
+ec ai.exec rgb:FBA922
+ec ai.seq rgb:FBA922
+ec ai.ascii rgb:198844
+
+ec graph.true rgb:198844
+ec graph.trufae rgb:198844
+ec graph.false rgb:CC342B
+ec graph.current rgb:c5c8c6
+ec graph.traced rgb:FBA922
+ec graph.box rgb:3971ED
+ec graph.box2 rgb:3971ED
+ec graph.box3 rgb:3971ED
+ec graph.box4 rgb:3971ED

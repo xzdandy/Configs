@@ -1,0 +1,60 @@
+# Base16 Zenburn
+# Author: elnawe
+
+ec prompt rgb:dca3a3
+ec swi rgb:dca3a3
+
+ec b0x00 rgb:606060
+ec b0x7f rgb:6f6f6f
+ec b0xff rgb:6f6f6f
+ec btext rgb:7cb8bb
+ec other rgb:dcdccc
+
+ec push rgb:dc8cc3
+ec pop rgb:dc8cc3
+
+ec bin rgb:7cb8bb
+ec math rgb:7cb8bb
+ec mov rgb:7cb8bb
+ec call rgb:e0cf9f
+ec cjmp rgb:93e0e3
+ec jmp rgb:93e0e3
+ec cmp rgb:7cb8bb
+ec ret rgb:7cb8bb
+ec nop rgb:606060
+
+ec reg rgb:dca3a3
+ec creg rgb:dfaf8f
+
+ec num rgb:dfaf8f
+ec fline rgb:e0cf9f
+ec fname rgb:e0cf9f
+ec flow rgb:808080
+ec flow2 rgb:808080
+ec label rgb:5f7f5f
+ec offset rgb:dc8cc3
+ec trap rgb:5f7f5f
+ec flag rgb:dc8cc3
+ec args rgb:5f7f5f
+ec invalid rgb:dca3a3
+ec help rgb:5f7f5f
+
+ec input rgb:dcdccc
+ec comment rgb:6f6f6f
+ec usrcmt rgb:dcdccc
+
+ec ai.read rgb:dfaf8f
+ec ai.write rgb:e0cf9f
+ec ai.exec rgb:e0cf9f
+ec ai.seq rgb:e0cf9f
+ec ai.ascii rgb:5f7f5f
+
+ec graph.true rgb:5f7f5f
+ec graph.trufae rgb:5f7f5f
+ec graph.false rgb:dca3a3
+ec graph.current rgb:dcdccc
+ec graph.traced rgb:e0cf9f
+ec graph.box rgb:93e0e3
+ec graph.box2 rgb:7cb8bb
+ec graph.box3 rgb:7cb8bb
+ec graph.box4 rgb:7cb8bb

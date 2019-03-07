@@ -1,0 +1,60 @@
+# Base16 Atelier Sulphurpool Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:c94922
+ec swi rgb:c94922
+
+ec b0x00 rgb:979db4
+ec b0x7f rgb:898ea4
+ec b0xff rgb:898ea4
+ec btext rgb:3d8fd1
+ec other rgb:5e6687
+
+ec push rgb:6679cc
+ec pop rgb:6679cc
+
+ec bin rgb:3d8fd1
+ec math rgb:3d8fd1
+ec mov rgb:3d8fd1
+ec call rgb:c08b30
+ec cjmp rgb:22a2c9
+ec jmp rgb:22a2c9
+ec cmp rgb:3d8fd1
+ec ret rgb:3d8fd1
+ec nop rgb:979db4
+
+ec reg rgb:c94922
+ec creg rgb:c76b29
+
+ec num rgb:c76b29
+ec fline rgb:c08b30
+ec fname rgb:c08b30
+ec flow rgb:6b7394
+ec flow2 rgb:6b7394
+ec label rgb:ac9739
+ec offset rgb:6679cc
+ec trap rgb:ac9739
+ec flag rgb:6679cc
+ec args rgb:ac9739
+ec invalid rgb:c94922
+ec help rgb:ac9739
+
+ec input rgb:5e6687
+ec comment rgb:898ea4
+ec usrcmt rgb:5e6687
+
+ec ai.read rgb:c76b29
+ec ai.write rgb:c08b30
+ec ai.exec rgb:c08b30
+ec ai.seq rgb:c08b30
+ec ai.ascii rgb:ac9739
+
+ec graph.true rgb:ac9739
+ec graph.trufae rgb:ac9739
+ec graph.false rgb:c94922
+ec graph.current rgb:5e6687
+ec graph.traced rgb:c08b30
+ec graph.box rgb:22a2c9
+ec graph.box2 rgb:3d8fd1
+ec graph.box3 rgb:3d8fd1
+ec graph.box4 rgb:3d8fd1

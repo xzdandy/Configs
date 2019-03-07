@@ -1,0 +1,61 @@
+
+# base16 PaperColor-Light by Nguyen Nguyen (http://github.com/NLKNguyen)
+
+.colors *
+
+-text		$4d4d4c/$f3f3f3
+-status		$808080/$d0d0d0
+-cursor		$f3f3f3/$4d4d4c
+-selection	/$d0d0d0
+-curlin		/$f3f3f3
+-linum		$949494/$f3f3f3
+-curlinum	$808080/$f3f3f3
+-menusel	$f3f3f3/$808080
+
+-term 0 	$f3f3f3
+-term 1 	$005f87
+-term 2 	$718c00
+-term 3 	$3e999f
+-term 4 	$d75f00
+-term 5 	$d7005f
+-term 6 	$4271ae
+-term 7 	$808080
+-term 8 	$949494
+-term 9 	$005f87
+-term 10	$718c00
+-term 11	$3e999f
+-term 12	$8959a8
+-term 13	$df0000
+-term 14	$4271ae
+-term 15	$262626
+
+=Constant	$d75f00
+=String		$718c00
+=Escape		$3e999f
+
+=Comment	$949494
+=StorageClass	+Type
+=Keyword	$d7005f
+=Conditional	$d7005f
+=Operator	$4d4d4c
+=Loop		$4271ae
+=Statement	$8959a8
+=Type		$4271ae
+
+=DefinedIdent	$8959a8
+=Label		$4271ae
+=DefinedType	$4271ae
+=Structure	$d7005f
+
+=Preproc	$4271ae
+=Include	$005f87
+=Define		$d7005f
+=TODO		$4271ae/$f3f3f3
+=Precond	$d7005f
+
+=diff.AddLine	$718c00/$f3f3f3
+=diff.ChgLine	$949494/$f3f3f3
+=diff.DelLine	$8959a8/$f3f3f3
+=diff.File	$8959a8
+=diff.FileNew	$718c00
+=diff.Hunk	$005f87

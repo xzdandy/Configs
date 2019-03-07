@@ -1,0 +1,60 @@
+# Base16 Black Metal (Gorgoroth)
+# Author: metalelf0 (https://github.com/metalelf0)
+
+ec prompt rgb:5f8787
+ec swi rgb:5f8787
+
+ec b0x00 rgb:222222
+ec b0x7f rgb:333333
+ec b0xff rgb:333333
+ec btext rgb:888888
+ec other rgb:c1c1c1
+
+ec push rgb:999999
+ec pop rgb:999999
+
+ec bin rgb:888888
+ec math rgb:888888
+ec mov rgb:888888
+ec call rgb:8c7f70
+ec cjmp rgb:aaaaaa
+ec jmp rgb:aaaaaa
+ec cmp rgb:888888
+ec ret rgb:888888
+ec nop rgb:222222
+
+ec reg rgb:5f8787
+ec creg rgb:aaaaaa
+
+ec num rgb:aaaaaa
+ec fline rgb:8c7f70
+ec fname rgb:8c7f70
+ec flow rgb:999999
+ec flow2 rgb:999999
+ec label rgb:9b8d7f
+ec offset rgb:999999
+ec trap rgb:9b8d7f
+ec flag rgb:999999
+ec args rgb:9b8d7f
+ec invalid rgb:5f8787
+ec help rgb:9b8d7f
+
+ec input rgb:c1c1c1
+ec comment rgb:333333
+ec usrcmt rgb:c1c1c1
+
+ec ai.read rgb:aaaaaa
+ec ai.write rgb:8c7f70
+ec ai.exec rgb:8c7f70
+ec ai.seq rgb:8c7f70
+ec ai.ascii rgb:9b8d7f
+
+ec graph.true rgb:9b8d7f
+ec graph.trufae rgb:9b8d7f
+ec graph.false rgb:5f8787
+ec graph.current rgb:c1c1c1
+ec graph.traced rgb:8c7f70
+ec graph.box rgb:aaaaaa
+ec graph.box2 rgb:888888
+ec graph.box3 rgb:888888
+ec graph.box4 rgb:888888

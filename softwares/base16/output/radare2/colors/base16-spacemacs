@@ -1,0 +1,60 @@
+# Base16 Spacemacs
+# Author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+
+ec prompt rgb:f2241f
+ec swi rgb:f2241f
+
+ec b0x00 rgb:444155
+ec b0x7f rgb:585858
+ec b0xff rgb:585858
+ec btext rgb:4f97d7
+ec other rgb:a3a3a3
+
+ec push rgb:a31db1
+ec pop rgb:a31db1
+
+ec bin rgb:4f97d7
+ec math rgb:4f97d7
+ec mov rgb:4f97d7
+ec call rgb:b1951d
+ec cjmp rgb:2d9574
+ec jmp rgb:2d9574
+ec cmp rgb:4f97d7
+ec ret rgb:4f97d7
+ec nop rgb:444155
+
+ec reg rgb:f2241f
+ec creg rgb:ffa500
+
+ec num rgb:ffa500
+ec fline rgb:b1951d
+ec fname rgb:b1951d
+ec flow rgb:b8b8b8
+ec flow2 rgb:b8b8b8
+ec label rgb:67b11d
+ec offset rgb:a31db1
+ec trap rgb:67b11d
+ec flag rgb:a31db1
+ec args rgb:67b11d
+ec invalid rgb:f2241f
+ec help rgb:67b11d
+
+ec input rgb:a3a3a3
+ec comment rgb:585858
+ec usrcmt rgb:a3a3a3
+
+ec ai.read rgb:ffa500
+ec ai.write rgb:b1951d
+ec ai.exec rgb:b1951d
+ec ai.seq rgb:b1951d
+ec ai.ascii rgb:67b11d
+
+ec graph.true rgb:67b11d
+ec graph.trufae rgb:67b11d
+ec graph.false rgb:f2241f
+ec graph.current rgb:a3a3a3
+ec graph.traced rgb:b1951d
+ec graph.box rgb:2d9574
+ec graph.box2 rgb:4f97d7
+ec graph.box3 rgb:4f97d7
+ec graph.box4 rgb:4f97d7

@@ -1,0 +1,60 @@
+# Base16 Summerfruit Light
+# Author: Christopher Corley (http://christop.club/)
+
+ec prompt rgb:FF0086
+ec swi rgb:FF0086
+
+ec b0x00 rgb:D0D0D0
+ec b0x7f rgb:B0B0B0
+ec b0xff rgb:B0B0B0
+ec btext rgb:3777E6
+ec other rgb:101010
+
+ec push rgb:AD00A1
+ec pop rgb:AD00A1
+
+ec bin rgb:3777E6
+ec math rgb:3777E6
+ec mov rgb:3777E6
+ec call rgb:ABA800
+ec cjmp rgb:1FAAAA
+ec jmp rgb:1FAAAA
+ec cmp rgb:3777E6
+ec ret rgb:3777E6
+ec nop rgb:D0D0D0
+
+ec reg rgb:FF0086
+ec creg rgb:FD8900
+
+ec num rgb:FD8900
+ec fline rgb:ABA800
+ec fname rgb:ABA800
+ec flow rgb:000000
+ec flow2 rgb:000000
+ec label rgb:00C918
+ec offset rgb:AD00A1
+ec trap rgb:00C918
+ec flag rgb:AD00A1
+ec args rgb:00C918
+ec invalid rgb:FF0086
+ec help rgb:00C918
+
+ec input rgb:101010
+ec comment rgb:B0B0B0
+ec usrcmt rgb:101010
+
+ec ai.read rgb:FD8900
+ec ai.write rgb:ABA800
+ec ai.exec rgb:ABA800
+ec ai.seq rgb:ABA800
+ec ai.ascii rgb:00C918
+
+ec graph.true rgb:00C918
+ec graph.trufae rgb:00C918
+ec graph.false rgb:FF0086
+ec graph.current rgb:101010
+ec graph.traced rgb:ABA800
+ec graph.box rgb:1FAAAA
+ec graph.box2 rgb:3777E6
+ec graph.box3 rgb:3777E6
+ec graph.box4 rgb:3777E6

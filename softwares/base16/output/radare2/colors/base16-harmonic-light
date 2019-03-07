@@ -1,0 +1,60 @@
+# Base16 Harmonic16 Light
+# Author: Jannik Siebert (https://github.com/janniks)
+
+ec prompt rgb:bf8b56
+ec swi rgb:bf8b56
+
+ec b0x00 rgb:cbd6e2
+ec b0x7f rgb:aabcce
+ec b0xff rgb:aabcce
+ec btext rgb:8b56bf
+ec other rgb:405c79
+
+ec push rgb:bf568b
+ec pop rgb:bf568b
+
+ec bin rgb:8b56bf
+ec math rgb:8b56bf
+ec mov rgb:8b56bf
+ec call rgb:8bbf56
+ec cjmp rgb:568bbf
+ec jmp rgb:568bbf
+ec cmp rgb:8b56bf
+ec ret rgb:8b56bf
+ec nop rgb:cbd6e2
+
+ec reg rgb:bf8b56
+ec creg rgb:bfbf56
+
+ec num rgb:bfbf56
+ec fline rgb:8bbf56
+ec fname rgb:8bbf56
+ec flow rgb:627e99
+ec flow2 rgb:627e99
+ec label rgb:56bf8b
+ec offset rgb:bf568b
+ec trap rgb:56bf8b
+ec flag rgb:bf568b
+ec args rgb:56bf8b
+ec invalid rgb:bf8b56
+ec help rgb:56bf8b
+
+ec input rgb:405c79
+ec comment rgb:aabcce
+ec usrcmt rgb:405c79
+
+ec ai.read rgb:bfbf56
+ec ai.write rgb:8bbf56
+ec ai.exec rgb:8bbf56
+ec ai.seq rgb:8bbf56
+ec ai.ascii rgb:56bf8b
+
+ec graph.true rgb:56bf8b
+ec graph.trufae rgb:56bf8b
+ec graph.false rgb:bf8b56
+ec graph.current rgb:405c79
+ec graph.traced rgb:8bbf56
+ec graph.box rgb:568bbf
+ec graph.box2 rgb:8b56bf
+ec graph.box3 rgb:8b56bf
+ec graph.box4 rgb:8b56bf

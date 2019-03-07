@@ -1,0 +1,60 @@
+# Base16 Atelier Savanna Light
+# Author: Bram de Haan (http://atelierbramdehaan.nl)
+
+ec prompt rgb:b16139
+ec swi rgb:b16139
+
+ec b0x00 rgb:87928a
+ec b0x7f rgb:78877d
+ec b0xff rgb:78877d
+ec btext rgb:478c90
+ec other rgb:526057
+
+ec push rgb:55859b
+ec pop rgb:55859b
+
+ec bin rgb:478c90
+ec math rgb:478c90
+ec mov rgb:478c90
+ec call rgb:a07e3b
+ec cjmp rgb:1c9aa0
+ec jmp rgb:1c9aa0
+ec cmp rgb:478c90
+ec ret rgb:478c90
+ec nop rgb:87928a
+
+ec reg rgb:b16139
+ec creg rgb:9f713c
+
+ec num rgb:9f713c
+ec fline rgb:a07e3b
+ec fname rgb:a07e3b
+ec flow rgb:5f6d64
+ec flow2 rgb:5f6d64
+ec label rgb:489963
+ec offset rgb:55859b
+ec trap rgb:489963
+ec flag rgb:55859b
+ec args rgb:489963
+ec invalid rgb:b16139
+ec help rgb:489963
+
+ec input rgb:526057
+ec comment rgb:78877d
+ec usrcmt rgb:526057
+
+ec ai.read rgb:9f713c
+ec ai.write rgb:a07e3b
+ec ai.exec rgb:a07e3b
+ec ai.seq rgb:a07e3b
+ec ai.ascii rgb:489963
+
+ec graph.true rgb:489963
+ec graph.trufae rgb:489963
+ec graph.false rgb:b16139
+ec graph.current rgb:526057
+ec graph.traced rgb:a07e3b
+ec graph.box rgb:1c9aa0
+ec graph.box2 rgb:478c90
+ec graph.box3 rgb:478c90
+ec graph.box4 rgb:478c90

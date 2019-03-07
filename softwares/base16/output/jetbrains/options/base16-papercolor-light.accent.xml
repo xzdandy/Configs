@@ -1,0 +1,12 @@
+<!--    Base16 PaperColor-Light
+        Author: Nguyen Nguyen (http://github.com/NLKNguyen)   -->
+
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.2.0.1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="005f87" />
+    <option name="accentColor" value="005f87" />
+    <option name="darkTitleBar" value="true" />
+  </component>
+</application>

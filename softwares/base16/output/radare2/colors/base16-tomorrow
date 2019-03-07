@@ -1,0 +1,60 @@
+# Base16 Tomorrow
+# Author: Chris Kempson (http://chriskempson.com)
+
+ec prompt rgb:c82829
+ec swi rgb:c82829
+
+ec b0x00 rgb:d6d6d6
+ec b0x7f rgb:8e908c
+ec b0xff rgb:8e908c
+ec btext rgb:4271ae
+ec other rgb:4d4d4c
+
+ec push rgb:8959a8
+ec pop rgb:8959a8
+
+ec bin rgb:4271ae
+ec math rgb:4271ae
+ec mov rgb:4271ae
+ec call rgb:eab700
+ec cjmp rgb:3e999f
+ec jmp rgb:3e999f
+ec cmp rgb:4271ae
+ec ret rgb:4271ae
+ec nop rgb:d6d6d6
+
+ec reg rgb:c82829
+ec creg rgb:f5871f
+
+ec num rgb:f5871f
+ec fline rgb:eab700
+ec fname rgb:eab700
+ec flow rgb:969896
+ec flow2 rgb:969896
+ec label rgb:718c00
+ec offset rgb:8959a8
+ec trap rgb:718c00
+ec flag rgb:8959a8
+ec args rgb:718c00
+ec invalid rgb:c82829
+ec help rgb:718c00
+
+ec input rgb:4d4d4c
+ec comment rgb:8e908c
+ec usrcmt rgb:4d4d4c
+
+ec ai.read rgb:f5871f
+ec ai.write rgb:eab700
+ec ai.exec rgb:eab700
+ec ai.seq rgb:eab700
+ec ai.ascii rgb:718c00
+
+ec graph.true rgb:718c00
+ec graph.trufae rgb:718c00
+ec graph.false rgb:c82829
+ec graph.current rgb:4d4d4c
+ec graph.traced rgb:eab700
+ec graph.box rgb:3e999f
+ec graph.box2 rgb:4271ae
+ec graph.box3 rgb:4271ae
+ec graph.box4 rgb:4271ae

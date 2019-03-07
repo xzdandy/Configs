@@ -1,0 +1,60 @@
+# Base16 Gruvbox dark, pale
+# Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+
+ec prompt rgb:d75f5f
+ec swi rgb:d75f5f
+
+ec b0x00 rgb:4e4e4e
+ec b0x7f rgb:8a8a8a
+ec b0xff rgb:8a8a8a
+ec btext rgb:83adad
+ec other rgb:dab997
+
+ec push rgb:d485ad
+ec pop rgb:d485ad
+
+ec bin rgb:83adad
+ec math rgb:83adad
+ec mov rgb:83adad
+ec call rgb:ffaf00
+ec cjmp rgb:85ad85
+ec jmp rgb:85ad85
+ec cmp rgb:83adad
+ec ret rgb:83adad
+ec nop rgb:4e4e4e
+
+ec reg rgb:d75f5f
+ec creg rgb:ff8700
+
+ec num rgb:ff8700
+ec fline rgb:ffaf00
+ec fname rgb:ffaf00
+ec flow rgb:949494
+ec flow2 rgb:949494
+ec label rgb:afaf00
+ec offset rgb:d485ad
+ec trap rgb:afaf00
+ec flag rgb:d485ad
+ec args rgb:afaf00
+ec invalid rgb:d75f5f
+ec help rgb:afaf00
+
+ec input rgb:dab997
+ec comment rgb:8a8a8a
+ec usrcmt rgb:dab997
+
+ec ai.read rgb:ff8700
+ec ai.write rgb:ffaf00
+ec ai.exec rgb:ffaf00
+ec ai.seq rgb:ffaf00
+ec ai.ascii rgb:afaf00
+
+ec graph.true rgb:afaf00
+ec graph.trufae rgb:afaf00
+ec graph.false rgb:d75f5f
+ec graph.current rgb:dab997
+ec graph.traced rgb:ffaf00
+ec graph.box rgb:85ad85
+ec graph.box2 rgb:83adad
+ec graph.box3 rgb:83adad
+ec graph.box4 rgb:83adad

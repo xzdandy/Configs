@@ -1,0 +1,60 @@
+# Base16 Ashes
+# Author: Jannik Siebert (https://github.com/janniks)
+
+ec prompt rgb:C7AE95
+ec swi rgb:C7AE95
+
+ec b0x00 rgb:565E65
+ec b0x7f rgb:747C84
+ec b0xff rgb:747C84
+ec btext rgb:AE95C7
+ec other rgb:C7CCD1
+
+ec push rgb:C795AE
+ec pop rgb:C795AE
+
+ec bin rgb:AE95C7
+ec math rgb:AE95C7
+ec mov rgb:AE95C7
+ec call rgb:AEC795
+ec cjmp rgb:95AEC7
+ec jmp rgb:95AEC7
+ec cmp rgb:AE95C7
+ec ret rgb:AE95C7
+ec nop rgb:565E65
+
+ec reg rgb:C7AE95
+ec creg rgb:C7C795
+
+ec num rgb:C7C795
+ec fline rgb:AEC795
+ec fname rgb:AEC795
+ec flow rgb:ADB3BA
+ec flow2 rgb:ADB3BA
+ec label rgb:95C7AE
+ec offset rgb:C795AE
+ec trap rgb:95C7AE
+ec flag rgb:C795AE
+ec args rgb:95C7AE
+ec invalid rgb:C7AE95
+ec help rgb:95C7AE
+
+ec input rgb:C7CCD1
+ec comment rgb:747C84
+ec usrcmt rgb:C7CCD1
+
+ec ai.read rgb:C7C795
+ec ai.write rgb:AEC795
+ec ai.exec rgb:AEC795
+ec ai.seq rgb:AEC795
+ec ai.ascii rgb:95C7AE
+
+ec graph.true rgb:95C7AE
+ec graph.trufae rgb:95C7AE
+ec graph.false rgb:C7AE95
+ec graph.current rgb:C7CCD1
+ec graph.traced rgb:AEC795
+ec graph.box rgb:95AEC7
+ec graph.box2 rgb:AE95C7
+ec graph.box3 rgb:AE95C7
+ec graph.box4 rgb:AE95C7

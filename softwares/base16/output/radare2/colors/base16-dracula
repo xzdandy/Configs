@@ -1,0 +1,60 @@
+# Base16 Dracula
+# Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+
+ec prompt rgb:ea51b2
+ec swi rgb:ea51b2
+
+ec b0x00 rgb:4d4f68
+ec b0x7f rgb:626483
+ec b0xff rgb:626483
+ec btext rgb:62d6e8
+ec other rgb:e9e9f4
+
+ec push rgb:b45bcf
+ec pop rgb:b45bcf
+
+ec bin rgb:62d6e8
+ec math rgb:62d6e8
+ec mov rgb:62d6e8
+ec call rgb:00f769
+ec cjmp rgb:a1efe4
+ec jmp rgb:a1efe4
+ec cmp rgb:62d6e8
+ec ret rgb:62d6e8
+ec nop rgb:4d4f68
+
+ec reg rgb:ea51b2
+ec creg rgb:b45bcf
+
+ec num rgb:b45bcf
+ec fline rgb:00f769
+ec fname rgb:00f769
+ec flow rgb:62d6e8
+ec flow2 rgb:62d6e8
+ec label rgb:ebff87
+ec offset rgb:b45bcf
+ec trap rgb:ebff87
+ec flag rgb:b45bcf
+ec args rgb:ebff87
+ec invalid rgb:ea51b2
+ec help rgb:ebff87
+
+ec input rgb:e9e9f4
+ec comment rgb:626483
+ec usrcmt rgb:e9e9f4
+
+ec ai.read rgb:b45bcf
+ec ai.write rgb:00f769
+ec ai.exec rgb:00f769
+ec ai.seq rgb:00f769
+ec ai.ascii rgb:ebff87
+
+ec graph.true rgb:ebff87
+ec graph.trufae rgb:ebff87
+ec graph.false rgb:ea51b2
+ec graph.current rgb:e9e9f4
+ec graph.traced rgb:00f769
+ec graph.box rgb:a1efe4
+ec graph.box2 rgb:62d6e8
+ec graph.box3 rgb:62d6e8
+ec graph.box4 rgb:62d6e8
