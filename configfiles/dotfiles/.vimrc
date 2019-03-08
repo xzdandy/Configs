@@ -7,6 +7,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'mbbill/undotree'
 Plug 'rust-lang/rust.vim'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'vim-scripts/fish.vim'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -410,3 +411,8 @@ nnoremap <leader>u :UndotreeToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd FileType rust nnoremap <leader>mr :w<cr>:make run<cr>
 let g:rustfmt_autosave = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => fish
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd BufRead,BufNewFile *.fish setfiletype fish
