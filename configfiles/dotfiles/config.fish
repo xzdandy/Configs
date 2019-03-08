@@ -5,6 +5,14 @@ and not set -q TMUX
     exec tmux
 end
 
+# Alias #
+alias rm="safe-rm"
+alias vimf="vim (fzf)"
+
+# PATH #
+set PATH $PATH $HOME/.cargo/bin
+set PATH $PATH $HOME/Tools/azure-cli/bin
+
 # THEME PURE #
 set fish_function_path /home/xzdandy/.config/fish/functions/theme-pure/functions/ $fish_function_path
 source /home/xzdandy/.config/fish/functions/theme-pure/conf.d/pure.fish

@@ -1,6 +1,4 @@
 call plug#begin('~/.vim/plugged')
-Plug 'mileszs/ack.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
@@ -8,6 +6,9 @@ Plug 'mbbill/undotree'
 Plug 'rust-lang/rust.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'vim-scripts/fish.vim'
+Plug 'airblade/vim-rooter'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -136,11 +137,8 @@ set directory=~/.vim/swap//
 " => Turn persistent undo on 
 "    means that you can undo even when you close a buffer/VIM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-try
-    set undodir=~/.vim/undodir//
-    set undofile
-catch
-endtry
+set undodir=~/.vim/undodir//
+set undofile
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
@@ -178,8 +176,8 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 set splitbelow splitright
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
-map <space> /
-map <C-@> ?
+"map <space> /
+"map <C-@> ?
 
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>
@@ -307,42 +305,6 @@ iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 set omnifunc=syntaxcomplete#Complete
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Ack searching and cope displaying
-"    requires ack.vim - it's much better than vimgrep/grep
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Use the the_silver_searcher if possible (much faster than Ack)
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep --smart-case'
-endif
-
-cnoreabbrev Ack Ack!
-
-" When you press gv you Ack after the selected text
-vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
-
-" Open Ack and put the cursor in the right position
-map <leader>g :Ack! 
-
-" When you press <leader>r you can search and replace the selected text
-vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
-
-" Do :help cope if you are unsure what cope is. It's super useful!
-"
-" When you search with Ack, display your results in cope by doing:
-"   <leader>cc
-"
-" To go to the next search result do:
-"   <leader>n
-"
-" To go to the previous search results do:
-"   <leader>p
-"
-map <leader>cc :botright cope<cr>
-map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
-map <leader>n :cn<cr>
-map <leader>p :cp<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 func! DeleteTillSlash()
@@ -378,17 +340,6 @@ nmap <c-p> <Plug>yankstack_substitute_older_paste
 nmap <c-n> <Plug>yankstack_substitute_newer_paste
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Nerd Tree
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:NERDTreeWinPos = "right"
-let NERDTreeShowHidden=0
-let NERDTreeIgnore = ['\.pyc$', '__pycache__']
-let g:NERDTreeWinSize=35
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark<Space>
-map <leader>nf :NERDTreeFind<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vimtex
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:tex_flavor = "latex" 
@@ -416,3 +367,22 @@ let g:rustfmt_autosave = 1
 " => fish
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd BufRead,BufNewFile *.fish setfiletype fish
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => fzf
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Customize fzf colors to match your color scheme
+let g:fzf_colors =
+            \ { 'fg':      ['fg', 'Normal'],
+  \ 'bg':      ['bg', 'Normal'],
+  \ 'hl':      ['fg', 'Comment'],
+  \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+  \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+  \ 'hl+':     ['fg', 'Statement'],
+  \ 'info':    ['fg', 'PreProc'],
+  \ 'border':  ['fg', 'Ignore'],
+  \ 'prompt':  ['fg', 'Conditional'],
+  \ 'pointer': ['fg', 'Exception'],
+  \ 'marker':  ['fg', 'Keyword'],
+  \ 'spinner': ['fg', 'Label'],
+  \ 'header':  ['fg', 'Comment'] }
