@@ -1,14 +1,21 @@
 call plug#begin('~/.vim/plugged')
-Plug 'maxbrunsfeld/vim-yankstack'
-Plug 'lervag/vimtex'
 Plug 'itchyny/lightline.vim'
-Plug 'mbbill/undotree'
-Plug 'rust-lang/rust.vim'
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'vim-scripts/fish.vim'
+
+Plug 'mbbill/undotree'
+Plug 'maxbrunsfeld/vim-yankstack'
+
+Plug 'lervag/vimtex'
+
+Plug 'rust-lang/rust.vim'
+
+Plug 'vim-python/python-syntax'
+
 Plug 'airblade/vim-rooter'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+
+Plug 'Chiel92/vim-autoformat'
 call plug#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -110,11 +117,7 @@ let g:PaperColor_Theme_Options = {
 
 colorscheme PaperColor
 
-"try
-"    colorscheme PaperColor
-"    hi Normal ctermbg=NONE
-"catch
-"endtry
+let g:python_highlight_all = 1
 
 " turn on line numbers
 set number relativenumber
@@ -168,7 +171,8 @@ set wrap "Wrap lines
 " Super useful! From an idea by Michael Naumann
 vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
-
+" When you press <leader>r you can search and replace the selected text
+vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -362,6 +366,11 @@ nnoremap <leader>u :UndotreeToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd FileType rust nnoremap <leader>mr :w<cr>:make run<cr>
 let g:rustfmt_autosave = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-autoformat
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd BufWrite *.py :Autoformat
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => fish

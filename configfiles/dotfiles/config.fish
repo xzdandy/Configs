@@ -1,5 +1,5 @@
 # Start tmux #
-if not test -z "$DISPLAY"
+if test -n "$DISPLAY"
 and status is-interactive
 and not set -q TMUX
     exec tmux
