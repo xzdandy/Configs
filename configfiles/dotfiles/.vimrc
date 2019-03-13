@@ -9,8 +9,6 @@ Plug 'lervag/vimtex'
 
 Plug 'rust-lang/rust.vim'
 
-Plug 'vim-python/python-syntax'
-
 Plug 'airblade/vim-rooter'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -48,6 +46,7 @@ command W w !sudo tee % > /dev/null
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
+set display+=lastline
 
 " Turn on the Wild menu
 set wildmenu
@@ -116,8 +115,6 @@ let g:PaperColor_Theme_Options = {
   \ }
 
 colorscheme PaperColor
-
-let g:python_highlight_all = 1
 
 " turn on line numbers
 set number relativenumber
@@ -395,3 +392,4 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+
