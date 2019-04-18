@@ -5,8 +5,6 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'mbbill/undotree'
 Plug 'maxbrunsfeld/vim-yankstack'
 
-Plug 'lervag/vimtex'
-
 Plug 'rust-lang/rust.vim'
 
 Plug 'airblade/vim-rooter'

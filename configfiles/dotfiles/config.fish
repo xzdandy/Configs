@@ -6,6 +6,7 @@ end
 # Alias #
 alias rm="safe-rm"
 alias vimf="vim (fzf)"
+alias g='googler -n 5 --colors nXigxy'
 
 # PATH #
 set PATH $PATH $HOME/.cargo/bin
