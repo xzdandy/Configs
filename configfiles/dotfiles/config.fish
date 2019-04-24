@@ -3,6 +3,9 @@ if begin; set -q DISPLAY; and status is-interactive; and not set -q TMUX; end
     exec tmux
 end
 
+# Key bindings #
+fish_vi_key_bindings
+
 # Alias #
 alias rm="safe-rm"
 alias vimf="vim (fzf)"
