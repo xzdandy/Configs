@@ -19,6 +19,9 @@ set PATH $PATH $HOME/Tools/azure-cli/bin
 set fish_function_path /home/xzdandy/.config/fish/functions/theme-pure/functions/ $fish_function_path
 source /home/xzdandy/.config/fish/functions/theme-pure/conf.d/pure.fish
 
+# Fix partial matched suggestion in light terminal theme#
+set fish_pager_color_prefix red --bold --underline
+
 # Start X at login #
 if status --is-login
     if test -z "$DISPLAY" -a $XDG_VTNR = 1
