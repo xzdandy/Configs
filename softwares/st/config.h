@@ -165,7 +165,7 @@ static MouseShortcut mshortcuts[] = {
 #define TERMMOD (ControlMask|ShiftMask)
 
 static char *openurlcmd[] = { "/bin/sh", "-c",
-    "xurls | uniq | dmenu -l 10 | xargs -r xdg-open",
+    "grep -aEo '(http|https)://[a-zA-Z0-9./?=_-]*'  | uniq | dmenu -l 10 | xargs -r xdg-open",
     "externalpipe", NULL };
 
 static Shortcut shortcuts[] = {
