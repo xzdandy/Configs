@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=24:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -98,28 +98,51 @@ float alpha = 0.9;
 */
 
 static const char *colorname[] = {
-  "#f3f3f3", /* base00 */
-  "#8959a8", /* base08 */
-  "#718c00", /* base0B */
-  "#4271ae", /* base0A */
-  "#005f87", /* base0D */
-  "#d7005f", /* base0E */
-  "#3e999f", /* base0C */
-  "#4d4d4c", /* base05 */
-  "#949494", /* base03 */
-  "#d75f00", /* base09 */
-  "#f3f3f3", /* base01 */
-  "#d0d0d0", /* base02 */
-  "#808080", /* base04 */
-  "#262626", /* base06 */
-  "#df0000", /* base0F */
-  "#262626", /* base07 */
+	/* 8 normal colors */
+    "#262626",
+    "#df0000",
+    "#718c00",
+    "#d75f00",
+    "#005f87",
+    "#8959a8",
+    "#3e999f",
+    "#d0d0d0",
+     
+    /* 8 bright colors */
+    "#4d4d4c",
+    "#df0000",
+    "#718c00",
+    "#d75f00",
+    "#4271ae",
+    "#8959a8",
+    "#3e999f",
+    "#f3f3f3",
+  
+  [255] = 0,    
+
+  /* base16 generated papercolor */
+  "#f3f3f3", /* base00 white */
+  "#8959a8", /* base08 magenta */
+  "#718c00", /* base0B green */
+  "#4271ae", /* base0A light blue*/
+  "#005f87", /* base0D dark blue */
+  "#d7005f", /* base0E light magenta*/
+  "#3e999f", /* base0C cyan*/
+  "#4d4d4c", /* base05 light black */
+  "#949494", /* base03 light grey */
+  "#d75f00", /* base09 orange */
+  "#f3f3f3", /* base01 white */
+  "#d0d0d0", /* base02 dark white */
+  "#808080", /* base04 dark grey*/
+  "#262626", /* base06 black*/
+  "#df0000", /* base0F red*/
+  "#262626", /* base07 black*/
 };
 
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
-static unsigned int defaultcs = 13;
-static unsigned int defaultrcs = 0;
+unsigned int defaultfg = 256 + 7; /* light black */
+unsigned int defaultbg = 256; /* white */
+static unsigned int defaultcs = 256 + 12; /* dark grey */
+static unsigned int defaultrcs = 256 + 11; /* dark white */
 
 /*
  * Default shape of cursor
@@ -174,9 +197,9 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
-	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
-	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
+    { TERMMOD,              XK_Prior,       zoom,           {.f = +2} },
+    { TERMMOD,              XK_Next,        zoom,           {.f = -2} },
+    { TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
