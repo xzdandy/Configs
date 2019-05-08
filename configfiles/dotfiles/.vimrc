@@ -98,6 +98,9 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" Tree view for netw
+let g:netrw_liststyle=3
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -304,7 +307,7 @@ iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Omni complete functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set omnifunc=syntaxcomplete#Complete
+"set omnifunc=syntaxcomplete#Complete
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
@@ -334,19 +337,20 @@ func! CurrentFileDir(cmd)
 endfunc
 
 """"""""""""""""""""""""""""""
+" => Automatic bracket setting
+""""""""""""""""""""""""""""""
+inoremap ( ()<Esc>i
+inoremap { {}<Esc>i
+inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
+inoremap <C-k> <CR><Esc>ko
+
+""""""""""""""""""""""""""""""
 " => YankStack
 """"""""""""""""""""""""""""""
 let g:yankstack_yank_keys = ['y', 'd']
 
 nmap <c-p> <Plug>yankstack_substitute_older_paste
 nmap <c-n> <Plug>yankstack_substitute_newer_paste
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => vimtex
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:tex_flavor = "latex" 
-let maplocalleader = "_"
-let g:vimtex_view_method = "zathura"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => lightline
@@ -362,7 +366,6 @@ nnoremap <leader>u :UndotreeToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => rust
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType rust nnoremap <leader>mr :w<cr>:make run<cr>
 let g:rustfmt_autosave = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -371,13 +374,10 @@ let g:rustfmt_autosave = 1
 autocmd BufWrite *.py :Autoformat
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => fish
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd BufRead,BufNewFile *.fish setfiletype fish
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => fzf
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>f <ESC>:GFiles<CR>
+map <leader>b <ESC>:Buffers<CR>
 " Customize fzf colors to match your color scheme
 " Use the global fzf color setting
 "let g:fzf_colors =

@@ -8,7 +8,6 @@ fish_vi_key_bindings
 
 # Alias #
 alias rm="safe-rm"
-alias vimf="vim (fzf)"
 alias g='googler -n 5 --colors nXigxy'
 
 # PATH #
@@ -26,7 +25,7 @@ set fish_color_search_match bryellow --background=grey
 
 # Start X at login #
 if status --is-login
-    if begin; test -z "$DISPLAY"; and test -n "$XDG_VTNR"; and $XDG_VTNR=1; end
+    if begin; test -z "$DISPLAY"; and test -n "$XDG_VTNR"; and test "$XDG_VTNR" = 1; end
         exec startx
     end
 end

@@ -8,3 +8,7 @@ http://arxiv.org/rss/cs.DC "distributed computing" arxiv
 http://arxiv.org/rss/cs.NI network arxiv
 http://arxiv.org/rss/cs.OS "operating system" arxiv
 https://www.calendar.gatech.edu/feeds/events.xml event gatech
+https://blog.rust-lang.org/feed.xml tech rust
+https://this-week-in-rust.org/rss.xml test rust
+https://weekly.nixos.org/feeds/all.rss.xml tech linux nixos
+https://www.archlinux.org/feeds/news/ linux arch
