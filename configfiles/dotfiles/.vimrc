@@ -7,8 +7,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'mbbill/undotree'
 Plug 'maxbrunsfeld/vim-yankstack'
 
-"Plug 'rust-lang/rust.vim' " already in vim-polyglot
-
 Plug 'airblade/vim-rooter'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -22,6 +20,9 @@ call plug#end()
 set nocompatible
 " Sets how many lines of history VIM has to remember
 set history=500
+
+" Increase the copy paste buffer
+set viminfo='20,<1000,s1000
 
 " Enable filetype plugins
 filetype plugin on
@@ -152,9 +153,9 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 2 spaces
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
@@ -364,14 +365,15 @@ set noshowmode
 nnoremap <leader>u :UndotreeToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => rust
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:rustfmt_autosave = 1
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-autoformat
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd BufWrite *.py :Autoformat
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-rooter
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Change directory for the current window only
+let g:rooter_use_lcd = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => fzf
