@@ -29,3 +29,6 @@ color article           default default
 highlight article "^(Title):.*$" blue default
 highlight article "https?://[^ ]+" red default
 highlight article "\\[image\\ [0-9]+\\]" green default
+
+# macro
+macro v set browser "mpv %u" ; open-in-browser ; set browser "/usr/bin/chromium %u"

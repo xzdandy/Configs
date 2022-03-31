@@ -365,15 +365,10 @@ set noshowmode
 nnoremap <leader>u :UndotreeToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => vim-autoformat
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd BufWrite *.py :Autoformat
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-rooter
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Change directory for the current window only
-let g:rooter_use_lcd = 1
+let g:rooter_cd_cmd = "lcd"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => fzf
@@ -397,3 +392,7 @@ map <leader>b <ESC>:Buffers<CR>
 "  \ 'spinner': ['fg', 'Label'],
 "  \ 'header':  ['fg', 'Comment'] }
 "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-autoformat
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType vim,tex let b:autoformat_autoindent=0
